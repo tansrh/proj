@@ -1,0 +1,933 @@
+'''This is a json, which has tags i.e. diseases and their respective patterns, medications and treatments. Now various of the patterns are repetitive in various cases, which is making my model inaccurate, I want you to edit the below json such that every pattern in every case is found just once and is nit repeated elsewhere. the json is as :
+'''
+{
+    "intents": [
+      
+       
+      {
+        "tag": "headache",
+        "patterns": [
+          "Pain or discomfort in the head or neck region",
+          "Dull, throbbing, or sharp pain in head",
+          "Pressure or tightness in the head",
+          "Pain that worsens with physical activity in head",
+  
+          
+          "Visual disturbances (e.g., aura)",
+          "Tension or stiffness in the neck and shoulders",
+          "Pain that is localized to one side of the head (e.g., migraine)"
+          
+        ]
+      }
+      ,
+      {
+        "tag": "cough",
+        "patterns": [
+          "Persistent coughing",
+          "Dry, hacking cough",
+          "Coughing up mucus or phlegm",
+          "Chest congestion or tightness",
+          "Wheezing or whistling sound when breathing",
+          "Shortness of breath or difficulty breathing",
+          "Sore throat or throat irritation"
+          
+          
+        ]
+      }
+      
+      ,
+      {
+        "tag": "sore_throat",
+        "patterns": [
+          "Pain or irritation in the throat",
+          "Difficulty swallowing or talking",
+          "Scratchy or dry throat",
+          "Swollen or tender glands in the neck",
+          "Redness or inflammation in the throat",
+          "White patches or pus on the tonsils",
+          "Hoarseness or loss of voice",
+          "Coughing"
+         
+         
+        ]
+      }
+      
+      ,
+      {
+        "tag": "stomach ache",
+        "patterns": [
+          "Pain or discomfort in the abdominal area",
+          "Cramping or sharp, stabbing pain in stomach",
+          "Bloating or feeling of fullness",
+        
+          "Changes in bowel habits",
+          "Abdominal tenderness to touch",
+          "Stomach Pain worsened by eating or relieved by bowel movements"
+        ]
+      }
+      
+,
+{
+  "tag": "fatigue",
+  "patterns": [
+    "Persistent tiredness or lack of energy",
+    "Feeling physically or mentally exhausted",
+    "Difficulty concentrating or focusing",
+    "Reduced motivation or productivity",
+    "Muscle weakness or soreness",
+    "Sleep disturbances (insomnia or excessive sleepiness)",
+    "Irritability or mood swings",
+    
+    "Decreased physical stamina or endurance",
+    "Lack of interest in usual activities"
+  ]
+}
+
+,
+{
+  "tag": "rash",
+  "patterns": [
+    "Redness, itching, or irritation of the skin",
+    "Raised bumps or welts on skin",
+    "Blistering or vesicles filled with fluid",
+    "Scaling or flaking of the skin",
+    "Warmth or tenderness in the affected area on skin",
+    "Spreading of the rash to other parts of the body",
+   
+    "Rash worsened by heat or sweating",
+    "Rash triggered by exposure to allergens or irritants"
+  ]
+}
+
+,
+{
+  "tag": "diarrhea",
+  "patterns": [
+    "Frequent, loose, or watery bowel movements",
+    "Abdominal cramps or abdominal pain ",
+    "Urgency to have a bowel movement",
+    "Bloating or gas",
+    
+   
+    "Blood or mucus in stool",
+    "Dehydration (dry mouth, decreased urine output, dizziness)",
+    "Loss of appetite"
+    
+  ]
+}
+
+,
+{
+  "tag": "shortness of breath",
+  "patterns": [
+    "Difficulty breathing or feeling like you can't get enough air",
+    "Rapid or shallow breathing",
+    "Tightness or discomfort in the chest",
+    "Wheezing or noisy breathing",
+    "Feeling like you're suffocating or choking",
+    "Breathlessness during physical activity",
+    "Anxiety or panic accompanying shortness of breath",
+    "Coughing or wheezing that worsens with exertion",
+    "Blue-tinged lips or fingernails",
+    "Difficulty speaking due to breathlessness"
+  ]
+}
+
+,
+{
+  "tag": "joint pain",
+  "patterns": [
+    "Pain, stiffness, or swelling in one or more joints",
+    "Limited range of motion in the affected joint(s)",
+    "Warmth or redness around the joint",
+    "Joint tenderness or sensitivity to touch",
+    "Difficulty bearing weight on the affected joint",
+    "Joint instability or feeling of looseness",
+    "Cracking or popping sensations with movement",
+    "Joint pain worsened by activity or prolonged sitting/standing",
+    "Joint pain accompanied by fever or chills",
+    "Joint pain after an injury or trauma"
+  ]
+}
+
+,
+{
+  "tag": "dizziness",
+  "patterns": [
+    "Feeling lightheaded or faint",
+    "Sensation of spinning or vertigo",
+    "Unsteadiness or loss of balance",
+    "Dizziness triggered by changes in position (e.g., standing up quickly)",
+    "Nausea or vomiting associated with dizziness",
+    "Blurry vision or visual disturbances",
+    "Ringing in the ears (tinnitus)",
+    "Sweating or clamminess",
+    "Feeling disoriented or confused",
+    "Anxiety or panic in response to dizziness"
+  ]
+}
+
+,
+{
+  "tag": "sneezing",
+  "patterns": [
+    "Sudden, involuntary expulsion of air through the nose and mouth",
+    "Itchy or watery eyes",
+    "Runny or stuffy nose",
+    "Tickling sensation in the nose",
+    "Frequent bouts of sneezing",
+    "Nasal congestion or blockage",
+    "Sore throat or coughing",
+    "Fatigue or irritability due to disrupted sleep",
+    "Sensitivity to allergens or irritants",
+    "Postnasal drip"
+  ]
+}
+
+,
+{
+  "tag": "insomnia",
+  "patterns": [
+    "Difficulty falling asleep",
+    "Frequent awakenings during the night",
+    "Waking up too early in the morning",
+    "Non-restorative sleep",
+    "Daytime sleepiness or fatigue",
+    "Difficulty concentrating or focusing",
+    "Irritability or mood disturbances",
+    "Anxiety or worry about sleep",
+    "Muscle tension or headaches upon awakening",
+    "Impaired performance at work or school"
+  ]
+}
+
+,
+{
+  "tag": "muscle cramps",
+  "patterns": [
+    "Sudden, involuntary muscle contractions",
+    "Muscle tightness or stiffness",
+    "Sharp muscular pain or discomfort in muscles",
+    "Visible bulging or twitching of the affected muscle",
+    "Difficulty moving or using the muscle",
+    "Muscle soreness after cramping",
+    "Cramps typically occur during or after physical activity",
+    
+    "Dehydration or electrolyte imbalances may contribute to muscle cramps",
+    "Certain medications or medical conditions may increase the risk of muscle cramps"
+  ]
+}
+
+,
+{
+  "tag": "burns",
+  "patterns": [
+    "Redness and pain at the site of the burn",
+    "Swelling and blisters due to burn",
+    "Peeling skin after burn",
+    "White or charred skin",
+    
+    "Difficulty moving the affected burnt area "
+    
+    
+  ]
+}
+
+,
+{
+  "tag": "anxiety",
+  "patterns": [
+    "Excessive worry or apprehension",
+    "Feeling nervous or on edge",
+    "Restlessness or inability to relax",
+    "Irritability or mood swings",
+    "Difficulty concentrating or focusing",
+    "Muscle tension or soreness",
+    "Rapid heartbeat or palpitations",
+    "Shortness of breath or shallow breathing",
+    "Agitation or restlessness",
+    "Sweating or trembling"
+    
+  ]
+}
+
+,
+{
+  "tag": "depression",
+  "patterns": [
+    "Persistent sadness or emptiness",
+    "Loss of interest or pleasure in activities",
+    "Feeling sad or having a depressed mood",  
+    "Feeling worthless or guilty",
+    "Difficulty concentrating or making decisions",
+    "Suicidal thoughts or behaviors",
+    
+    "Irritability or angry outbursts",
+  
+    "Social withdrawal or isolation",
+    
+    "Lack of motivation or interest in life"
+  ]
+}
+
+,
+{
+  "tag": "toothache",
+  "patterns": [
+    "Sharp or throbbing pain in or around the tooth",
+    "Teeth Sensitivity to hot, cold, or sweet foods and drinks",
+    "Pain when biting or chewing",
+    "Swelling or tenderness around the tooth or gums",
+    "Pus discharge from the tooth or gums",
+    "Visible holes or pits in the tooth",
+    "Loose or wobbly tooth",
+    "Difficulty opening the mouth or jaw"
+  ]
+}
+
+,
+{
+  "tag": "fatigue",
+  "patterns": [
+    "Persistent tiredness or exhaustion",
+    "Lack of energy or motivation",
+    "Feeling physically or mentally drained",
+    "Difficulty concentrating or remembering",
+    "Muscle weakness or soreness",
+    "Slowed reflexes or responses",
+    "Increased irritability or moodiness",
+    
+    "Decreased appetite or changes in weight",
+    "Feeling overwhelmed by everyday tasks"
+  ]
+}
+
+,
+{
+  "tag": "heartburn",
+  "patterns": [
+    "Burning sensation in the chest (behind the breastbone)",
+    "Burning sensation that worsens when lying down or bending over",
+    "Regurgitation of stomach acid or food into the mouth",
+    "Sour or acidic taste in the mouth",
+    
+    
+    
+    "Feeling of a lump in the throat",
+    "Chest pain or discomfort",
+    "Excessive belching or burping"
+  ]
+}
+
+,
+{
+  "tag": "conjunctivitis",
+  "patterns": [
+    "Redness in one or both eyes",
+    "Watery or teary eyes",
+    "Itchy or irritated eyes",
+    "Gritty sensation in the eyes",
+    "Swelling or puffiness around the eyes",
+    "Sensitivity to light (photophobia)",
+    "Thick, yellow, or green discharge from the eyes",
+    "Crusty eyelids, especially upon waking",
+    "Blurred vision",
+    "Foreign body sensation in the eye"
+  ]
+}
+
+,
+{
+  "tag": "constipation",
+  "patterns": [
+    "Infrequent bowel movements (typically fewer than three per week)",
+    "Difficulty passing stools",
+    "Hard or lumpy stools",
+    "Straining during bowel movements",
+    "Feeling of incomplete evacuation",
+    "Abdominal bloating or discomfort",
+    "Rectal pain or discomfort",
+    "Sensation of obstruction in the rectum",
+    "Passing small amounts of hard, dry stool",
+    "Nausea or loss of appetite"
+  ]
+}
+
+,
+{
+  "tag": "fracture",
+  "patterns": [
+    "Pain, swelling, and tenderness around the injured area",
+    "Deformity or misalignment of the bone",
+    "Inability to bear weight or use the injured limb",
+    "Bruising or discoloration",
+    "Limited range of motion",
+    "Visible bone protruding through the skin (in open fractures)",
+    "Grating or popping sensation during movement",
+    "Numbness or tingling in the affected area",
+    "Difficulty moving or performing normal activities"
+    
+  ]
+}
+
+,
+{
+  "tag": "sunburn",
+  "patterns": [
+    "Red, tender, and inflamed skin",
+    "Warmth or heat radiating from the affected area",
+    "Pain or tenderness when touching the skin",
+    
+    "Swelling of the affected area",
+    "Blisters (in severe cases)",
+    "Peeling or flaking skin as the sunburn heals",
+    "Fever or chills in severe cases",
+    "Headache",
+    "Nausea or vomiting"
+  ]
+}
+
+,
+{
+  "tag": "earache",
+  "patterns": [
+    "Pain or discomfort in one or both ears",
+    "Earache worsened by pulling or pressing on the ear",
+    "Tenderness around the ear",
+    "Fluid drainage from the ear",
+    "Decreased hearing or hearing loss",
+    "Feeling of fullness or pressure in the ear",
+   
+    "Irritability or fussiness in ears (especially in infants and young children)"
+    
+  ]
+}
+
+,
+{
+  "tag": "sprains",
+  "patterns": [
+    "Pain, tenderness, and swelling around the affected joint",
+    "Difficulty moving the joint or bearing weight on it",
+    
+    "Stiffness or decreased range of motion",
+    "Popping or tearing sensation at the time of injury",
+    "Instability or feeling of looseness in the joint",
+    "Warmth or redness over the injured area",
+    "Muscle spasms",
+    "Difficulty walking or using the affected limb",
+    "Grinding or popping sensation with movement"
+  ]
+}
+,
+{
+  "tag": "allergies",
+  "patterns": [
+    "Sudden Sneezing",
+  
+    " Sudden Rash or hives",
+    "Sudden Fatigue",
+    "Sudden Coughing",
+    "Sudden Wheezing",
+    "Shortness of breath for no reason",
+    "Swelling of the face, lips, tongue, or throat suddenly"
+  ]
+}
+,
+{
+  "tag": "asthma",
+  "patterns": [
+    "Coughing, especially at night or early morning",
+    "Wheezing or whistling sound when breathing out",
+    "Shortness of breath or chest tightness",
+    "Difficulty breathing",
+    "Frequent respiratory infections",
+    "Trouble sleeping due to coughing or wheezing",
+    "Anxiety or panic related to breathing difficulties",
+    "Decreased peak flow rate (PEFR) during asthma attacks"
+  ]
+}
+,
+{
+  "tag": "food_poisoning",
+  "patterns": [
+    
+    "Nausea after a particular meal",
+    "Vomiting after a particular meal",
+    "Diarrhea after a particular meal",
+    "Abdominal cramps after a particular meal",
+    "Fever after a particular meal",
+    "Headache after a particular meal",
+    "Muscle aches after a particular meal",
+    "Fatigue after a particular meal",
+    "Loss of appetite after a particular meal",
+    "Dehydration after a particular meal"
+  ]
+}
+,
+{
+  "tag": "uti",
+  "patterns": [
+    "Burning sensation or pain during urination",
+    "Frequent or intense urge to urinate",
+    "Passing small amounts of urine frequently",
+    "Cloudy or strong-smelling urine",
+    "Blood in the urine (hematuria)",
+    "Pelvic pain in women",
+    "Rectal pain in men"
+    
+  ]
+}
+,
+{
+  "tag": "migraine",
+  "patterns": [
+    "Throbbing or pulsating headache",
+    "Sensitivity to light (photophobia)",
+    "Sensitivity to sound (phonophobia)",
+    "Nausea or vomiting due to repeated headcahe",
+    "Aura (visual disturbances, sensory changes, or speech disturbances) due to headache",
+    "Visual disturbances (e.g., flashing lights, blind spots) due to headache",
+    "Feeling lightheaded or dizzy due to headache",
+    "Neck stiffness or muscle tension due to headache",
+    "Fatigue or weakness due to headache",
+    "Difficulty concentrating due to headache"
+  ]
+}
+,
+{
+  "tag": "acid reflux",
+  "patterns": [
+    "Heartburn or chest pain",
+    "Regurgitation of food or sour liquid",
+    "Difficulty swallowing (dysphagia)",
+    "Feeling of a lump in the throat (globus sensation)",
+    "Chronic cough or sore throat along with discomfort in heart",
+    
+    "Sensation of a burning throat",
+    "Chronic bad breath (halitosis)"
+  ]
+}
+,
+{
+  "tag": "hypertension",
+  "patterns": [
+    "High systolic blood pressure (typically above 130 mm Hg)",
+    "High diastolic blood pressure (typically above 80 mm Hg)",
+    "Frequent headaches",
+    "Dizziness or lightheadedness",
+    "Blurred or double vision",
+    
+    "Shortness of breath",
+    "Fatigue or weakness",
+    "Irregular heartbeat (arrhythmia)",
+    "Blood in the urine (hematuria)"
+  ]
+}
+,
+{
+  "tag": "hypotension",
+  "patterns": [
+    "Dizziness or lightheadedness",
+    "Fainting (syncope)",
+    "Blurred or tunnel vision",
+   
+    "Fatigue or weakness",
+    "Lack of concentration or confusion",
+    "Pale skin",
+    "Rapid or shallow breathing",
+    "Cold, clammy skin",
+    "Weak or rapid pulse"
+  ]
+}
+,
+{
+  "tag": "osteoarthritis",
+  "patterns": [
+    "Joint pain",
+    "Stiffness in affected joints",
+    "Swelling or tenderness in affected joints",
+    "Decreased range of motion",
+    "Joint instability",
+    "Cracking or popping sensations in joints",
+    "Bony enlargements or bone spurs",
+    "Weakness in affected joints",
+    "Difficulty with daily activities (e.g., walking, climbing stairs)",
+    "Joint deformities"
+  ]
+}
+,
+{
+  "tag": "rheumatoid arthritis",
+  "patterns": [
+    
+    "Morning stiffness lasting more than 30 minutes",
+    "Fatigue or malaise",
+    "Low-grade fever",
+    "Loss of appetite",
+    "Dry eyes or mouth (Sjogren's syndrome)",
+    "Nodules under the skin (rheumatoid nodules)",
+    "Chest pain when breathing (pleurisy)",
+    "Numbness or tingling in hands and feet",
+    "Decreased range of motion in affected joints"
+  ]
+}
+,
+{
+  "tag": "allergic_rhinitis",
+  "patterns": [
+    "Sneezing",
+    "Runny or stuffy nose",
+    "Itchy or watery eyes",
+    "Itchy throat or ears",
+    "Coughing",
+    "Fatigue",
+    "Dark circles under the eyes",
+    "Decreased sense of smell or taste",
+    "Headache",
+    "Postnasal drip"
+  ]
+}
+,
+{
+  "tag": "anxiety_disorders",
+  "patterns": [
+    "Excessive worry or fear",
+    "Restlessness or irritability",
+    "Difficulty concentrating",
+    "Muscle tension",
+    "Rapid heartbeat",
+    "Shortness of breath",
+    "Sweating",
+    "Trembling",
+    "Insomnia",
+    "Gastrointestinal problems"
+  ]
+}
+,
+{
+  "tag": "pneumonia",
+  "patterns": [
+    "Cough with phlegm",
+    "Fever or chills",
+    "Shortness of breath",
+    "Chest pain that worsens with breathing or coughing",
+    "Fatigue",
+    "Muscle aches",
+    "Headache",
+    "Nausea or vomiting",
+    "Confusion (especially in older adults)",
+    "Bluish lips or nails (in severe cases)"
+  ]
+}
+,
+{
+  "tag": "bronchitis",
+  "patterns": [
+    "Persistent cough with or without phlegm",
+    "Fatigue",
+    "Shortness of breath",
+    "Chest discomfort or pain",
+    "Sore throat",
+    "Low-grade fever",
+    "Nasal congestion",
+    "Muscle aches",
+    "Wheezing",
+    "Hoarseness"
+  ]
+}
+,
+{
+  "tag": "sinusitis",
+  "patterns": [
+    "Facial pain or pressure",
+    "Nasal congestion",
+    "Runny nose",
+    "Thick, discolored nasal discharge",
+    "Postnasal drip",
+    "Cough",
+    "Sore throat",
+    "Headache",
+    "Fatigue",
+    "Bad breath"
+  ]
+}
+,
+{
+  "tag": "gastroenteritis",
+  "patterns": [
+    "Nausea",
+    "Vomiting",
+    "Diarrhea",
+    "Abdominal cramps",
+    "Fever",
+    "Headache",
+    "Muscle aches",
+    "Fatigue",
+    "Loss of appetite",
+    "Dehydration"
+  ]
+}
+,
+{
+  "tag": "gastritis",
+  "patterns": [
+    "Abdominal pain or discomfort",
+    "Nausea",
+    "Vomiting",
+    "Indigestion",
+    "Loss of appetite",
+    "Bloating",
+    "Belching",
+    "Heartburn",
+    "Black, tarry stools (indicating bleeding)",
+    "Hiccups"
+  ]
+}
+,
+{
+  "tag": "gastroenteritis",
+  "patterns": [
+    "Nausea",
+    "Vomiting",
+    "Diarrhea",
+    "Abdominal cramps",
+    "Stomach pain",
+    "Fever",
+    "Headache",
+    "Muscle aches",
+    "Fatigue",
+    "Dehydration"
+  ]
+}
+,
+{
+  "tag": "gastritis",
+  "patterns": [
+    "Abdominal pain or discomfort",
+    "Nausea",
+    "Vomiting",
+    "Loss of appetite",
+    "Bloating",
+    "Indigestion",
+    "Hiccups",
+    "Black, tarry stools (indicating upper GI bleeding)",
+    "Heartburn",
+    "Fatigue"
+  ]
+}
+,
+{
+  "tag": "gastroenteritis",
+  "patterns": [
+    "Nausea",
+    "Vomiting",
+    "Diarrhea",
+    "Abdominal cramps",
+    "Stomach pain",
+    "Fever",
+    "Headache",
+    "Muscle aches",
+    "Fatigue",
+    "Loss of appetite"
+  ]
+}
+,
+{
+  "tag": "gastritis",
+  "patterns": [
+    "Nausea",
+    "Vomiting",
+    "Abdominal pain or discomfort",
+    "Bloating",
+    "Indigestion",
+    "Loss of appetite",
+    "Belching",
+    "Heartburn",
+    "Dark or black stool",
+    "Fatigue"
+  ]
+}
+,
+{
+  "tag": "peptic_ulcer_disease",
+  "patterns": [
+    "Burning stomach pain",
+    "Heartburn",
+    "Nausea",
+    "Vomiting",
+    "Bloating",
+    "Feeling full soon after eating",
+    "Burping",
+    "Unintentional weight loss",
+    "Dark or black stool",
+    "Fatigue"
+  ]
+}
+,
+{
+  "tag": "diabetes_mellitus",
+  "patterns": [
+    "Frequent urination",
+    "Excessive thirst",
+    "Unexplained weight loss",
+    "Fatigue",
+    "Blurred vision",
+    "Slow healing of wounds",
+    "Tingling or numbness in hands or feet",
+    "Recurrent infections",
+    "Increased hunger",
+    "Irritability"
+  ]
+}
+,
+{
+  "tag": "hyperthyroidism",
+  "patterns": [
+    "Unexplained weight loss",
+    "Increased appetite",
+    "Rapid heartbeat (tachycardia)",
+    "Irregular heartbeat (arrhythmia)",
+    "Palpitations",
+    "Heat intolerance",
+    "Excessive sweating",
+    "Tremor",
+    "Nervousness or anxiety",
+    "Fatigue"
+  ]
+}
+,
+{
+  "tag": "hypothyroidism",
+  "patterns": [
+    "Fatigue",
+    "Weight gain",
+    "Cold intolerance",
+    "Constipation",
+    "Dry skin",
+    "Hair loss",
+    "Muscle weakness",
+    "Joint pain",
+    "Depression",
+    "Memory problems"
+  ]
+}
+,
+{
+  "tag": "gout",
+  "patterns": [
+    "Sudden and severe joint pain",
+    "Swelling in affected joints",
+    "Warmth and redness in affected joints",
+    "Limited range of motion",
+    "Tophi (lumps of uric acid crystals) under the skin",
+    "Fever",
+    "Chills",
+    "Fatigue",
+    "Tender joints",
+    "Joint stiffness"
+  ]
+}
+,
+{
+  "tag": "kidney_stones",
+  "patterns": [
+    "Severe pain in the back, side, or lower abdomen",
+    "Pain that radiates to the groin or genital area",
+    "Painful urination",
+    "Blood in the urine",
+    "Frequent urination",
+    "Urgency to urinate",
+    "Nausea and vomiting",
+    "Fever and chills (if infection is present)",
+    "Cloudy or foul-smelling urine",
+    "Difficulty passing urine"
+  ]
+}
+,
+{
+  "tag": "urinary_incontinence",
+  "patterns": [
+    "Leaking urine when coughing, sneezing, or laughing (stress incontinence)",
+    "Sudden and intense urge to urinate followed by involuntary leakage of urine (urge incontinence)",
+    "Frequent urination (overactive bladder)",
+    "Difficulty starting urination",
+    "Weak urine stream",
+    "Incomplete emptying of the bladder",
+    "Bedwetting (nocturnal enuresis)",
+    "Overflow incontinence (inability to fully empty the bladder)",
+    "Urinary tract infections",
+    "Skin irritation or rash due to constant moisture"
+  ]
+}
+,
+{
+  "tag": "anemia",
+  "patterns": [
+    "Fatigue",
+    "Weakness",
+    "Pale or yellowish skin",
+    "Shortness of breath",
+    "Dizziness or lightheadedness",
+    "Cold hands and feet",
+    "Irregular heartbeats",
+    "Headache",
+    "Chest pain",
+    "Difficulty concentrating"
+  ]
+}
+,
+{
+  "tag": "vertigo",
+  "patterns": [
+    "Sensation of spinning or whirling",
+    "Feeling off-balance or unsteady",
+    "Nausea or vomiting",
+    "Abnormal eye movements (nystagmus)",
+    "Sweating",
+    "Headache",
+    "Ringing in the ears (tinnitus)",
+    "Hearing loss",
+    "Jerky eye movements (ocular dysmetria)",
+    "Difficulty walking or standing"
+  ]
+}
+,
+{
+  "tag": "menstrual_disorders",
+  "patterns": [
+    "Irregular menstrual cycles",
+    "Heavy menstrual bleeding (menorrhagia)",
+    "Light menstrual periods (hypomenorrhea)",
+    "Absent menstrual periods (amenorrhea)",
+    "Painful menstrual periods (dysmenorrhea)",
+    "Spotting or bleeding between periods",
+    "Premenstrual syndrome (PMS) symptoms",
+    "Premenstrual dysphoric disorder (PMDD)",
+    "Bloating",
+    "Breast tenderness"
+  ]
+}
+,
+{
+  "tag": "erectile_dysfunction",
+  "patterns": [
+    "Difficulty achieving or maintaining an erection",
+    "Reduced sexual desire",
+    "Premature ejaculation",
+    "Delayed ejaculation",
+    "Anxiety or stress related to sexual performance",
+    "Trouble getting or keeping an erection during masturbation but not during sexual intercourse",
+    "Relationship problems",
+    "Low self-esteem",
+    "Fatigue or lack of energy",
+    "Depression"
+  ]
+}
+
+
+
+
+      
+    ]
+  }
