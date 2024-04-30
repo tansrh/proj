@@ -1,6 +1,6 @@
 {
     "intents": [
-      
+     
        
       {
         "tag": "headache",
@@ -9,12 +9,12 @@
           "Dull, throbbing, or sharp pain in head",
           "Pressure or tightness in the head",
           "Pain that worsens with physical activity in head",
-  
-          
+          "headache",
+         
           "Visual disturbances (e.g., aura)",
           "Tension or stiffness in the neck and shoulders",
           "Pain that is localized to one side of the head (e.g., migraine)"
-          
+         
         ],
         "medications": [
           "Over-the-counter pain relievers (e.g., acetaminophen, ibuprofen)",
@@ -51,9 +51,10 @@
           "Chest congestion or tightness",
           "Wheezing or whistling sound when breathing",
           "Shortness of breath or difficulty breathing",
-          "Sore throat or throat irritation"
-          
-          
+          "Sore throat or throat irritation",
+          "continuous coughing"
+         
+         
         ],
         "medications": [
           "Cough suppressants (e.g., dextromethorphan) to reduce the urge to cough",
@@ -80,10 +81,10 @@
           "Using nasal saline drops or sprays to alleviate nasal congestion and postnasal drip"
         ]
       }
-      
+     
       ,
       {
-        "tag": "sore_throat",
+        "tag": "sore throat",
         "patterns": [
           "Pain or irritation in the throat",
           "Difficulty swallowing or talking",
@@ -92,7 +93,7 @@
           "Redness or inflammation in the throat",
           "White patches or pus on the tonsils",
           "Hoarseness or loss of voice",
-          "Coughing"
+          "sore throat"
          
          
         ],
@@ -121,7 +122,7 @@
           "Seeking medical evaluation if sore throat persists for more than a few days or is severe"
         ]
       }
-      
+     
       ,
       {
         "tag": "stomach ache",
@@ -129,7 +130,7 @@
           "Pain or discomfort in the abdominal area",
           "Cramping or sharp, stabbing pain in stomach",
           "Bloating or feeling of fullness",
-        
+          "stomach ache",
           "Changes in bowel habits",
           "Abdominal tenderness to touch",
           "Stomach Pain worsened by eating or relieved by bowel movements"
@@ -159,7 +160,7 @@
           "Undergoing diagnostic tests (e.g., imaging studies, endoscopy) to identify the cause of chronic or recurrent stomach ache"
         ]
       }
-      
+     
 ,
 {
   "tag": "fatigue",
@@ -167,11 +168,12 @@
     "Persistent tiredness or lack of energy",
     "Feeling physically or mentally exhausted",
     "Difficulty concentrating or focusing",
+    "fatigue",
     "Reduced motivation or productivity",
     "Muscle weakness or soreness",
     "Sleep disturbances (insomnia or excessive sleepiness)",
     "Irritability or mood swings",
-    
+   
     "Decreased physical stamina or endurance",
     "Lack of interest in usual activities"
   ],
@@ -211,7 +213,7 @@
     "Scaling or flaking of the skin",
     "Warmth or tenderness in the affected area on skin",
     "Spreading of the rash to other parts of the body",
-   
+    "rash",
     "Rash worsened by heat or sweating",
     "Rash triggered by exposure to allergens or irritants"
   ],
@@ -249,12 +251,12 @@
     "Abdominal cramps or abdominal pain ",
     "Urgency to have a bowel movement",
     "Bloating or gas",
-    
    
+    "diarrhea",
     "Blood or mucus in stool",
     "Dehydration (dry mouth, decreased urine output, dizziness)",
     "Loss of appetite"
-    
+   
   ],
   "medications": [
     "Antidiarrheal agents (e.g., loperamide, bismuth subsalicylate) to reduce bowel movements and relieve symptoms",
@@ -295,6 +297,7 @@
     "Anxiety or panic accompanying shortness of breath",
     "Coughing or wheezing that worsens with exertion",
     "Blue-tinged lips or fingernails",
+    "shortness of breath",
     "Difficulty speaking due to breathlessness"
   ],
   "medications": [
@@ -336,6 +339,7 @@
     "Cracking or popping sensations with movement",
     "Joint pain worsened by activity or prolonged sitting/standing",
     "Joint pain accompanied by fever or chills",
+    "joint pain",
     "Joint pain after an injury or trauma"
   ],
   "medications": [
@@ -377,6 +381,7 @@
     "Ringing in the ears (tinnitus)",
     "Sweating or clamminess",
     "Feeling disoriented or confused",
+    "dizziness",
     "Anxiety or panic in response to dizziness"
   ],
   "medications": [
@@ -418,6 +423,7 @@
     "Sore throat or coughing",
     "Fatigue or irritability due to disrupted sleep",
     "Sensitivity to allergens or irritants",
+    "sneezing",
     "Postnasal drip"
   ],
   "medications": [
@@ -459,6 +465,7 @@
     "Irritability or mood disturbances",
     "Anxiety or worry about sleep",
     "Muscle tension or headaches upon awakening",
+    "insomnia",
     "Impaired performance at work or school"
   ],
   "medications": [
@@ -497,7 +504,7 @@
     "Difficulty moving or using the muscle",
     "Muscle soreness after cramping",
     "Cramps typically occur during or after physical activity",
-    
+    "muscle cramps",
     "Dehydration or electrolyte imbalances may contribute to muscle cramps",
     "Certain medications or medical conditions may increase the risk of muscle cramps"
   ],
@@ -535,10 +542,10 @@
     "Swelling and blisters due to burn",
     "Peeling skin after burn",
     "White or charred skin",
-    
+    "burns",
     "Difficulty moving the affected burnt area "
-    
-    
+   
+   
   ],
   "medications": [
     "Over-the-counter pain relievers (e.g., acetaminophen, ibuprofen)",
@@ -579,8 +586,9 @@
     "Rapid heartbeat or palpitations",
     "Shortness of breath or shallow breathing",
     "Agitation or restlessness",
+    "anxiety",
     "Sweating or trembling"
-    
+   
   ],
   "medications": [
     "Selective serotonin reuptake inhibitors (SSRIs) (e.g., sertraline, escitalopram)",
@@ -618,11 +626,11 @@
     "Feeling worthless or guilty",
     "Difficulty concentrating or making decisions",
     "Suicidal thoughts or behaviors",
-    
+    "depression",
     "Irritability or angry outbursts",
-  
+ 
     "Social withdrawal or isolation",
-    
+   
     "Lack of motivation or interest in life"
   ],
   "medications": [
@@ -662,6 +670,7 @@
     "Pus discharge from the tooth or gums",
     "Visible holes or pits in the tooth",
     "Loose or wobbly tooth",
+    "toothache",
     "Difficulty opening the mouth or jaw"
   ],
   "medications": [
@@ -700,7 +709,7 @@
     "Muscle weakness or soreness",
     "Slowed reflexes or responses",
     "Increased irritability or moodiness",
-    
+    "fatigue",
     "Decreased appetite or changes in weight",
     "Feeling overwhelmed by everyday tasks"
   ],
@@ -737,9 +746,9 @@
     "Burning sensation that worsens when lying down or bending over",
     "Regurgitation of stomach acid or food into the mouth",
     "Sour or acidic taste in the mouth",
-    
-    
-    
+    "heartburn",
+   
+   
     "Feeling of a lump in the throat",
     "Chest pain or discomfort",
     "Excessive belching or burping"
@@ -781,7 +790,7 @@
     "Sensitivity to light (photophobia)",
     "Thick, yellow, or green discharge from the eyes",
     "Crusty eyelids, especially upon waking",
-    "Blurred vision",
+    "conjunctivitis",
     "Foreign body sensation in the eye"
   ],
   "medications": [
@@ -823,6 +832,7 @@
     "Rectal pain or discomfort",
     "Sensation of obstruction in the rectum",
     "Passing small amounts of hard, dry stool",
+    "constipation",
     "Nausea or loss of appetite"
   ],
   "medications": [
@@ -863,8 +873,9 @@
     "Visible bone protruding through the skin (in open fractures)",
     "Grating or popping sensation during movement",
     "Numbness or tingling in the affected area",
+    "fracture",
     "Difficulty moving or performing normal activities"
-    
+   
   ],
   "medications": [
     "Pain relievers (e.g., acetaminophen, ibuprofen)",
@@ -896,7 +907,7 @@
     "Red, tender, and inflamed skin",
     "Warmth or heat radiating from the affected area",
     "Pain or tenderness when touching the skin",
-    
+    "sunburn",
     "Swelling of the affected area",
     "Blisters (in severe cases)",
     "Peeling or flaking skin as the sunburn heals",
@@ -939,9 +950,9 @@
     "Fluid drainage from the ear",
     "Decreased hearing or hearing loss",
     "Feeling of fullness or pressure in the ear",
-   
+    "earache",
     "Irritability or fussiness in ears (especially in infants and young children)"
-    
+   
   ],
   "medications": [
     "Over-the-counter pain relievers (e.g., acetaminophen, ibuprofen)",
@@ -974,7 +985,7 @@
   "patterns": [
     "Pain, tenderness, and swelling around the affected joint",
     "Difficulty moving the joint or bearing weight on it",
-    
+    "sprains",
     "Stiffness or decreased range of motion",
     "Popping or tearing sensation at the time of injury",
     "Instability or feeling of looseness in the joint",
@@ -1009,7 +1020,7 @@
   "tag": "allergies",
   "patterns": [
     "Sudden Sneezing",
-  
+    "allergies",
     " Sudden Rash or hives",
     "Sudden Fatigue",
     "Sudden Coughing",
@@ -1051,6 +1062,7 @@
     "Shortness of breath or chest tightness",
     "Difficulty breathing",
     "Frequent respiratory infections",
+    "asthma",
     "Trouble sleeping due to coughing or wheezing",
     "Anxiety or panic related to breathing difficulties",
     "Decreased peak flow rate (PEFR) during asthma attacks"
@@ -1082,12 +1094,13 @@
 }
 ,
 {
-  "tag": "food_poisoning",
+  "tag": "food poisoning",
   "patterns": [
-    
+   
     "Nausea after a particular meal",
     "Vomiting after a particular meal",
     "Diarrhea after a particular meal",
+    "food poisoning",
     "Abdominal cramps after a particular meal",
     "Fever after a particular meal",
     "Headache after a particular meal",
@@ -1126,8 +1139,9 @@
     "Cloudy or strong-smelling urine",
     "Blood in the urine (hematuria)",
     "Pelvic pain in women",
+    "uti",
     "Rectal pain in men"
-    
+   
   ],
   "medications": [
     "Antibiotics (e.g., trimethoprim-sulfamethoxazole, nitrofurantoin)",
@@ -1167,6 +1181,7 @@
     "Feeling lightheaded or dizzy due to headache",
     "Neck stiffness or muscle tension due to headache",
     "Fatigue or weakness due to headache",
+    "migraine",
     "Difficulty concentrating due to headache"
   ],
   "medications": [
@@ -1203,7 +1218,7 @@
     "Difficulty swallowing (dysphagia)",
     "Feeling of a lump in the throat (globus sensation)",
     "Chronic cough or sore throat along with discomfort in heart",
-    
+    "acid reflux",
     "Sensation of a burning throat",
     "Chronic bad breath (halitosis)"
   ],
@@ -1241,7 +1256,7 @@
     "Frequent headaches",
     "Dizziness or lightheadedness",
     "Blurred or double vision",
-    
+    "hypertension",
     "Shortness of breath",
     "Fatigue or weakness",
     "Irregular heartbeat (arrhythmia)",
@@ -1279,7 +1294,7 @@
     "Dizziness or lightheadedness",
     "Fainting (syncope)",
     "Blurred or tunnel vision",
-   
+    "hypotension",
     "Fatigue or weakness",
     "Lack of concentration or confusion",
     "Pale skin",
@@ -1323,6 +1338,7 @@
     "Joint instability",
     "Cracking or popping sensations in joints",
     "Bony enlargements or bone spurs",
+    "osteoarthritis",
     "Weakness in affected joints",
     "Difficulty with daily activities (e.g., walking, climbing stairs)",
     "Joint deformities"
@@ -1356,11 +1372,12 @@
 {
   "tag": "rheumatoid arthritis",
   "patterns": [
-    
+   
     "Morning stiffness lasting more than 30 minutes",
     "Fatigue or malaise",
     "Low-grade fever",
     "Loss of appetite",
+    "rheumatoid arthritis",
     "Dry eyes or mouth (Sjogren's syndrome)",
     "Nodules under the skin (rheumatoid nodules)",
     "Chest pain when breathing (pleurisy)",
@@ -1394,17 +1411,18 @@
 }
 ,
 {
-  "tag": "allergic_rhinitis",
+  "tag": "allergic rhinitis",
   "patterns": [
     "Sneezing",
     "Runny or stuffy nose",
     "Itchy or watery eyes",
-    "Itchy throat or ears",
-    "Coughing",
-    "Fatigue",
+    "Itchy throat or ears along with fatigue and nausea",
+   
+    "allergic rhinitis",
+   
     "Dark circles under the eyes",
-    "Decreased sense of smell or taste",
-    "Headache",
+    "Decreased sense of smell or taste along with headache",
+   
     "Postnasal drip"
   ],
   "medications": [
@@ -1434,7 +1452,7 @@
 }
 ,
 {
-  "tag": "anxiety_disorders",
+  "tag": "anxiety disorders",
   "patterns": [
     "Excessive worry or fear",
     "Restlessness or irritability",
@@ -1480,10 +1498,10 @@
     "Fever or chills",
     "Shortness of breath",
     "Chest pain that worsens with breathing or coughing",
-    "Fatigue",
+   
     "Muscle aches",
-    "Headache",
-    "Nausea or vomiting",
+    "pneumonia",
+   
     "Confusion (especially in older adults)",
     "Bluish lips or nails (in severe cases)"
   ],
@@ -1517,13 +1535,13 @@
   "tag": "bronchitis",
   "patterns": [
     "Persistent cough with or without phlegm",
-    "Fatigue",
+   
     "Shortness of breath",
     "Chest discomfort or pain",
     "Sore throat",
     "Low-grade fever",
     "Nasal congestion",
-    "Muscle aches",
+    "bronchitis",
     "Wheezing",
     "Hoarseness"
   ],
@@ -1557,15 +1575,13 @@
   "tag": "sinusitis",
   "patterns": [
     "Facial pain or pressure",
-    "Nasal congestion",
+    "sinusitis",
+    "Nasal congestion along with Bad breath",
     "Runny nose",
     "Thick, discolored nasal discharge",
-    "Postnasal drip",
-    "Cough",
-    "Sore throat",
-    "Headache",
-    "Fatigue",
-    "Bad breath"
+    "Postnasal drip and Sore throat"
+   
+   
   ],
   "medications": [
     "Antibiotics (e.g., amoxicillin, azithromycin) for bacterial sinusitis",
@@ -1596,16 +1612,16 @@
 {
   "tag": "gastroenteritis",
   "patterns": [
-    "Nausea",
-    "Vomiting",
-    "Diarrhea",
-    "Abdominal cramps",
-    "Fever",
-    "Headache",
-    "Muscle aches",
-    "Fatigue",
-    "Loss of appetite",
-    "Dehydration"
+    "Nausea with acidity",
+    "Vomiting with acidity",
+    "Diarrhea with acidity",
+    "Abdominal cramps with acidity",
+    "Fever with acidity",
+    "Headache with acidity",
+    "Muscle aches with acidity",
+    "Fatigue with acidity",
+    "Loss of appetite with acidity",
+    "Dehydration with acidity"
   ],
   "medications": [
     "Antidiarrheal medications (e.g., loperamide) to reduce diarrhea",
@@ -1636,16 +1652,15 @@
 {
   "tag": "gastritis",
   "patterns": [
-    "Abdominal pain or discomfort",
-    "Nausea",
-    "Vomiting",
-    "Indigestion",
-    "Loss of appetite",
-    "Bloating",
-    "Belching",
-    "Heartburn",
-    "Black, tarry stools (indicating bleeding)",
-    "Hiccups"
+    "Abdominal pain or discomfort dues to acidity",
+   
+    "Indigestion with acidity",
+    "Loss of appetite with acidity",
+    "Bloating with acidity",
+    "Belching with acidity",
+    "Heartburn with acidity",
+    "Black, tarry stools (indicating bleeding) with acidity",
+    "Hiccups with acidity"
   ],
   "medications": [
     "Antacids (e.g., calcium carbonate, magnesium hydroxide) to neutralize stomach acid",
@@ -1676,16 +1691,11 @@
 {
   "tag": "gastroenteritis",
   "patterns": [
-    "Nausea",
+    "Nausea , Vomiting, Diarrhea, Abdominal cramps, Fever, Muscle aches, Dehydration",
     "Vomiting",
     "Diarrhea",
-    "Abdominal cramps",
-    "Stomach pain",
-    "Fever",
-    "Headache",
-    "Muscle aches",
-    "Fatigue",
-    "Dehydration"
+    "Abdominal cramps"
+   
   ],
   "medications": [
     "Antibiotics (if bacterial gastroenteritis is diagnosed)",
@@ -1716,16 +1726,11 @@
 {
   "tag": "gastritis",
   "patterns": [
-    "Abdominal pain or discomfort",
-    "Nausea",
-    "Vomiting",
-    "Loss of appetite",
-    "Bloating",
-    "Indigestion",
-    "Hiccups",
-    "Black, tarry stools (indicating upper GI bleeding)",
-    "Heartburn",
-    "Fatigue"
+   
+    "Loss of appetite , Bloating, Indigestion, Black, tarry stools (indicating upper GI bleeding)",
+   
+    "Black, tarry stools (indicating upper GI bleeding)"
+   
   ],
   "medications": [
     "Proton pump inhibitors (e.g., omeprazole, lansoprazole) to reduce stomach acid",
@@ -1753,99 +1758,12 @@
   ]
 }
 ,
+
 {
-  "tag": "gastroenteritis",
+  "tag": "peptic ulcer disease",
   "patterns": [
-    "Nausea",
-    "Vomiting",
-    "Diarrhea",
-    "Abdominal cramps",
-    "Stomach pain",
-    "Fever",
-    "Headache",
-    "Muscle aches",
-    "Fatigue",
-    "Loss of appetite"
-  ],
-  "medications": [
-    "Antibiotics (if bacterial gastroenteritis is diagnosed)",
-    "Antiemetics (e.g., ondansetron) to alleviate nausea and vomiting",
-    "Antidiarrheal medications (e.g., loperamide) to control diarrhea",
-    "Antispasmodics (e.g., dicyclomine) for abdominal cramps",
-    "Analgesics (e.g., acetaminophen) for pain and fever relief",
-    "Probiotics to restore gut flora balance",
-    "Intravenous fluids and electrolytes for dehydration",
-    "Bismuth subsalicylate (e.g., Pepto-Bismol) to alleviate symptoms",
-    "Oral rehydration solutions (e.g., Pedialyte) to prevent dehydration",
-    "Digestive enzyme supplements for better digestion"
-  ],
-  "treatments":[
-    "Getting plenty of rest",
-    "Staying hydrated by drinking clear fluids",
-    "Eating bland foods (e.g., rice, bananas, toast, applesauce)",
-    "Avoiding spicy, fatty, or dairy-rich foods",
-    "Avoiding caffeine and alcohol",
-    "Using electrolyte solutions to replenish lost fluids and minerals",
-    "Gradually reintroducing solid foods as symptoms improve",
-    "Practicing good hand hygiene to prevent spreading the infection",
-    "Seeking medical attention if symptoms worsen or persist",
-    "Avoiding medications that can worsen gastrointestinal symptoms"
-  ]
-}
-,
-{
-  "tag": "gastritis",
-  "patterns": [
-    "Nausea",
-    "Vomiting",
-    "Abdominal pain or discomfort",
-    "Bloating",
-    "Indigestion",
-    "Loss of appetite",
-    "Belching",
-    "Heartburn",
-    "Dark or black stool",
-    "Fatigue"
-  ],
-  "medications": [
-    "Proton pump inhibitors (e.g., omeprazole, pantoprazole) to reduce stomach acid production",
-    "Antibiotics (if Helicobacter pylori infection is present)",
-    "Antacids (e.g., calcium carbonate, magnesium hydroxide) for immediate relief of symptoms",
-    "Histamine H2-receptor antagonists (e.g., ranitidine, famotidine) to reduce acid production",
-    "Mucosal protective agents (e.g., sucralfate) to protect the stomach lining",
-    "Prostaglandin analogs (e.g., misoprostol) to protect the stomach lining and reduce acid secretion",
-    "Antiemetics (e.g., ondansetron) for nausea and vomiting",
-    "Probiotics to restore gut flora balance",
-    "Digestive enzyme supplements for better digestion",
-    "Pain relievers (e.g., acetaminophen) for discomfort"
-  ],
-  "treatments":[
-    "Avoiding irritants such as spicy foods, alcohol, and NSAIDs",
-    "Eating smaller, more frequent meals",
-    "Avoiding lying down or going to bed immediately after eating",
-    "Quitting smoking",
-    "Reducing stress through relaxation techniques",
-    "Staying hydrated by drinking water",
-    "Eating a diet rich in fiber and low in fat",
-    "Avoiding eating late at night",
-    "Seeking medical attention if symptoms persist or worsen",
-    "Following the prescribed treatment regimen"
-  ]
-}
-,
-{
-  "tag": "peptic_ulcer_disease",
-  "patterns": [
-    "Burning stomach pain",
-    "Heartburn",
-    "Nausea",
-    "Vomiting",
-    "Bloating",
-    "Feeling full soon after eating",
-    "Burping",
-    "Unintentional weight loss",
-    "Dark or black stool",
-    "Fatigue"
+    "Burning stomach pain, Heartburn, Nausea, Feeling full soon after eating"
+   
   ],
   "medications": [
     "Proton pump inhibitors (e.g., omeprazole, esomeprazole) to reduce stomach acid production",
@@ -1874,12 +1792,12 @@
 }
 ,
 {
-  "tag": "diabetes_mellitus",
+  "tag": "diabetes mellitus",
   "patterns": [
-    "Frequent urination",
+    "Frequent urination along with Blurred vision",
     "Excessive thirst",
     "Unexplained weight loss",
-    "Fatigue",
+   
     "Blurred vision",
     "Slow healing of wounds",
     "Tingling or numbness in hands or feet",
@@ -1917,15 +1835,15 @@
   "tag": "hyperthyroidism",
   "patterns": [
     "Unexplained weight loss",
-    "Increased appetite",
+    "Increased appetite with Nervousness or anxiety",
     "Rapid heartbeat (tachycardia)",
     "Irregular heartbeat (arrhythmia)",
     "Palpitations",
     "Heat intolerance",
     "Excessive sweating",
-    "Tremor",
-    "Nervousness or anxiety",
-    "Fatigue"
+    "Tremor with Fatigue"
+   
+   
   ],
   "medications": [
     "Antithyroid medications (e.g., methimazole, propylthiouracil) to reduce thyroid hormone production",
@@ -1956,15 +1874,15 @@
 {
   "tag": "hypothyroidism",
   "patterns": [
-    "Fatigue",
-    "Weight gain",
+   
+    "Weight gain with Depression",
     "Cold intolerance",
-    "Constipation",
-    "Dry skin",
+    "Constipation along Dry skin",
+   
     "Hair loss",
     "Muscle weakness",
-    "Joint pain",
-    "Depression",
+    "Joint pain with Fatigue and depression",
+   
     "Memory problems"
   ],
   "medications": [
@@ -1996,13 +1914,12 @@
   "tag": "gout",
   "patterns": [
     "Sudden and severe joint pain",
-    "Swelling in affected joints",
+    "Swelling in affected joints with Fever",
     "Warmth and redness in affected joints",
     "Limited range of motion",
     "Tophi (lumps of uric acid crystals) under the skin",
-    "Fever",
+    "gout",
     "Chills",
-    "Fatigue",
     "Tender joints",
     "Joint stiffness"
   ],
@@ -2033,16 +1950,16 @@
 }
 ,
 {
-  "tag": "kidney_stones",
+  "tag": "kidney stones",
   "patterns": [
     "Severe pain in the back, side, or lower abdomen",
     "Pain that radiates to the groin or genital area",
     "Painful urination",
     "Blood in the urine",
     "Frequent urination",
+    "kidney stones",
     "Urgency to urinate",
     "Nausea and vomiting",
-    "Fever and chills (if infection is present)",
     "Cloudy or foul-smelling urine",
     "Difficulty passing urine"
   ],
@@ -2073,7 +1990,7 @@
 }
 ,
 {
-  "tag": "urinary_incontinence",
+  "tag": "urinary incontinence",
   "patterns": [
     "Leaking urine when coughing, sneezing, or laughing (stress incontinence)",
     "Sudden and intense urge to urinate followed by involuntary leakage of urine (urge incontinence)",
@@ -2115,16 +2032,16 @@
 {
   "tag": "anemia",
   "patterns": [
-    "Fatigue",
-    "Weakness",
-    "Pale or yellowish skin",
+   
+   
+    "Weakness along with Pale or yellowish skin",
     "Shortness of breath",
     "Dizziness or lightheadedness",
     "Cold hands and feet",
     "Irregular heartbeats",
-    "Headache",
-    "Chest pain",
-    "Difficulty concentrating"
+    "anemia",
+    "Headache with Chest pain and Difficulty concentrating"
+   
   ],
   "medications": [
     "Iron supplements (e.g., ferrous sulfate, ferrous gluconate) to replenish iron stores",
@@ -2154,14 +2071,13 @@
 {
   "tag": "vertigo",
   "patterns": [
-    "Sensation of spinning or whirling",
+    "Sensation of spinning or whirling  and Nausea or vomiting along with sweating",
     "Feeling off-balance or unsteady",
-    "Nausea or vomiting",
+   
     "Abnormal eye movements (nystagmus)",
-    "Sweating",
-    "Headache",
+   
     "Ringing in the ears (tinnitus)",
-    "Hearing loss",
+    "Hearing loss with Nausea or vomiting along with sweating",
     "Jerky eye movements (ocular dysmetria)",
     "Difficulty walking or standing"
   ],
@@ -2192,7 +2108,7 @@
 }
 ,
 {
-  "tag": "menstrual_disorders",
+  "tag": "menstrual disorders",
   "patterns": [
     "Irregular menstrual cycles",
     "Heavy menstrual bleeding (menorrhagia)",
@@ -2232,7 +2148,7 @@
 }
 ,
 {
-  "tag": "erectile_dysfunction",
+  "tag": "erectile dysfunction",
   "patterns": [
     "Difficulty achieving or maintaining an erection",
     "Reduced sexual desire",
@@ -2242,8 +2158,10 @@
     "Trouble getting or keeping an erection during masturbation but not during sexual intercourse",
     "Relationship problems",
     "Low self-esteem",
+    "erectile dysfunction",
     "Fatigue or lack of energy",
-    "Depression"
+    "Depression with Low self-esteem and erectile problems",
+    "erectile dysfunction"
   ],
   "medications": [
     "Phosphodiesterase type 5 (PDE5) inhibitors (e.g., sildenafil, tadalafil, vardenafil) to increase blood flow to the penis and improve erections",
@@ -2274,6 +2192,6 @@
 
 
 
-      
+     
     ]
   }

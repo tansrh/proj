@@ -9,7 +9,7 @@ from torch.utils.data import Dataset, DataLoader
 from nltk_utils import bag_of_words, tokenize, stem
 from model import NeuralNet
 
-with open('intents.json', 'r') as f:
+with open('ex_train.json', 'r') as f:
     intents = json.load(f)
 
 all_words = []
@@ -54,7 +54,7 @@ X_train = np.array(X_train)
 y_train = np.array(y_train)
 
 # Hyper-parameters 
-num_epochs = 1000
+num_epochs = 2000
 batch_size = 8
 learning_rate = 0.001
 input_size = len(X_train[0])

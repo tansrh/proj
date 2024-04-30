@@ -52,7 +52,7 @@ def get_response(sentence):
     x="\n"
     print("\n")
     print(f"{bot_name}:")
-    x=x+bot_name
+    
     rec=""
     for intent in intents['intents']:
 
@@ -69,12 +69,15 @@ def get_response(sentence):
             lst = intent['treatments']
             random_values = random.sample(lst, 5)
             print("Treatments:")
+            x=x+"\n"
             x=x+("Treatments:")
+            x=x+"\n"
             
             
             for i in random_values:
                 print(i)
                 x=x+(i)
+                x=x+"\n"
                 rec=rec+(i)
 
             print("\n")
@@ -83,12 +86,15 @@ def get_response(sentence):
            
             
             random_values = random.sample(lst, 5)
+
             print("Medications:")
-            x=x+("Medications")
+            x=x+("Medications:")
+            x=x+"\n"
             for i in random_values:
 
                 print(i)
                 x=x+(i)
+                x=x+"\n"
 
             print("\n")
             x=x+("\n")
