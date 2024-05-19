@@ -1,0 +1,2197 @@
+{
+    "intents": [
+     
+       
+      {
+        "tag": "headache",
+        "patterns": [
+          "Pain or discomfort in the head or neck region",
+          "Dull, throbbing, or sharp pain in head",
+          "Pressure or tightness in the head",
+          "Pain that worsens with physical activity in head",
+          "headache",
+         
+          "Visual disturbances (e.g., aura)",
+          "Tension or stiffness in the neck and shoulders",
+          "Pain that is localized to one side of the head (e.g., migraine)"
+         
+        ],
+        "medications": [
+          "Over-the-counter pain relievers (e.g., acetaminophen, ibuprofen)",
+          "Triptans (e.g., sumatriptan, rizatriptan) for migraine headaches",
+          "Ergotamine derivatives (e.g., dihydroergotamine) for severe or refractory migraines",
+          "Anti-nausea medications (e.g., metoclopramide, ondansetron) for headaches accompanied by nausea or vomiting",
+          "Caffeine-containing medications (e.g., Excedrin) for tension headaches",
+          "Prescription medications for chronic or recurrent headaches (e.g., beta-blockers, anticonvulsants)",
+          "Muscle relaxants (e.g., cyclobenzaprine) for headaches associated with muscle tension",
+          "Botulinum toxin injections (e.g., Botox) for chronic migraines",
+          "Steroid medications (e.g., prednisone) for cluster headaches or inflammatory conditions",
+          "Calcium channel blockers (e.g., verapamil) for certain types of headaches"
+        ],
+        "treatments":[
+          "Resting in a quiet, dark room",
+          "Applying cold or warm compresses to the head or neck",
+          "Practicing relaxation techniques such as deep breathing or meditation",
+          "Maintaining regular sleep patterns and adequate hydration",
+          "Identifying and avoiding triggers such as stress, certain foods, or environmental factors",
+          "Keeping a headache diary to track triggers, symptoms, and treatment effectiveness",
+          "Regular exercise to improve circulation and reduce stress",
+          "Seeking medical evaluation for persistent or severe headaches, especially if accompanied by neurological symptoms",
+          "Exploring alternative therapies such as acupuncture, biofeedback, or chiropractic care",
+          "Developing a comprehensive treatment plan with a healthcare professional to manage chronic headaches"
+        ]
+      }
+      ,
+      {
+        "tag": "cough",
+        "patterns": [
+          "Persistent coughing",
+          "Dry, hacking cough",
+          "Coughing up mucus or phlegm",
+          "Chest congestion or tightness",
+          "Wheezing or whistling sound when breathing",
+          "Shortness of breath or difficulty breathing",
+          "Sore throat or throat irritation",
+          "continuous coughing"
+         
+         
+        ],
+        "medications": [
+          "Cough suppressants (e.g., dextromethorphan) to reduce the urge to cough",
+          "Expectorants (e.g., guaifenesin) to help loosen and expel mucus from the airways",
+          "Bronchodilators (e.g., albuterol) to relax muscles in the airways and improve breathing",
+          "Antihistamines (e.g., diphenhydramine, loratadine) for cough associated with allergies",
+          "Decongestants (e.g., pseudoephedrine, phenylephrine) to relieve nasal congestion and postnasal drip",
+          "Antibiotics for bacterial respiratory infections (e.g., amoxicillin, azithromycin)",
+          "Corticosteroids (oral or inhaled) to reduce airway inflammation and relieve cough",
+          "Antiviral medications (e.g., oseltamivir) for cough caused by influenza (flu)",
+          "Mucolytics (e.g., acetylcysteine) to thin and loosen mucus in the airways",
+          "Antireflux medications (e.g., proton pump inhibitors) to reduce stomach acid reflux contributing to cough"
+        ],
+        "treatments":[
+          "Drinking plenty of fluids to stay hydrated and thin mucus secretions",
+          "Using a humidifier or steam inhalation to moisten the air and soothe the throat",
+          "Avoiding exposure to irritants such as smoke, dust, and strong odors",
+          "Resting and getting adequate sleep to support the body's immune response",
+          "Avoiding over-the-counter cough suppressants in children under certain ages (consult with a healthcare professional)",
+          "Elevating the head while sleeping to reduce postnasal drip and coughing at night",
+          "Practicing good hand hygiene to prevent the spread of respiratory infections",
+          "Seeking medical attention if cough persists for more than a few weeks, is accompanied by severe symptoms, or is associated with underlying medical conditions",
+          "Trying home remedies such as honey or ginger tea to soothe the throat and reduce coughing",
+          "Using nasal saline drops or sprays to alleviate nasal congestion and postnasal drip"
+        ]
+      }
+     
+      ,
+      {
+        "tag": "sore throat",
+        "patterns": [
+          "Pain or irritation in the throat",
+          "Difficulty swallowing or talking",
+          "Scratchy or dry throat",
+          "Swollen or tender glands in the neck",
+          "Redness or inflammation in the throat",
+          "White patches or pus on the tonsils",
+          "Hoarseness or loss of voice",
+          "sore throat"
+         
+         
+        ],
+        "medications": [
+          "Pain relievers and fever reducers (e.g., acetaminophen, ibuprofen)",
+          "Throat lozenges or sprays containing numbing agents (e.g., benzocaine, phenol)",
+          "Decongestants (oral or nasal) to relieve nasal congestion and postnasal drip",
+          "Antihistamines (e.g., loratadine, cetirizine) for sore throat caused by allergies",
+          "Antibiotics (e.g., penicillin, azithromycin) for bacterial throat infections such as strep throat",
+          "Corticosteroids (e.g., prednisone) for severe throat inflammation or swelling",
+          "Antiviral medications (e.g., oseltamivir) for sore throat caused by influenza (flu)",
+          "Antifungal medications for fungal throat infections (e.g., fluconazole)",
+          "Medications to reduce stomach acid reflux (e.g., proton pump inhibitors) if acid reflux is contributing to sore throat",
+          "Cough suppressants (e.g., dextromethorphan) to relieve throat irritation and dry cough"
+        ],
+        "treatments":[
+          "Gargling with warm salt water to soothe a sore throat",
+          "Staying hydrated by drinking plenty of fluids (e.g., water, herbal tea)",
+          "Using a humidifier or vaporizer to add moisture to the air and ease throat discomfort",
+          "Resting the voice and avoiding excessive talking or yelling",
+          "Avoiding irritants such as cigarette smoke, air pollution, and strong odors",
+          "Consuming soothing foods and beverages such as broth, honey, and herbal teas",
+          "Elevating the head while sleeping to reduce throat congestion and postnasal drip",
+          "Applying warm compresses to the neck to relieve muscle tension",
+          "Practicing good hand hygiene to prevent the spread of viral or bacterial infections",
+          "Seeking medical evaluation if sore throat persists for more than a few days or is severe"
+        ]
+      }
+     
+      ,
+      {
+        "tag": "stomach ache",
+        "patterns": [
+          "Pain or discomfort in the abdominal area",
+          "Cramping or sharp, stabbing pain in stomach",
+          "Bloating or feeling of fullness",
+          "stomach ache",
+          "Changes in bowel habits",
+          "Abdominal tenderness to touch",
+          "Stomach Pain worsened by eating or relieved by bowel movements"
+        ],
+        "medications": [
+          "Antacids (e.g., calcium carbonate, aluminum hydroxide) for heartburn or indigestion",
+          "Proton pump inhibitors (e.g., omeprazole, esomeprazole) to reduce stomach acid production and relieve acid-related symptoms",
+          "H2-receptor antagonists (e.g., ranitidine, famotidine) to decrease stomach acid production and alleviate heartburn",
+          "Antispasmodic medications (e.g., dicyclomine, hyoscyamine) to relieve abdominal cramping and discomfort",
+          "Antidiarrheal agents (e.g., loperamide) to slow down bowel movements and reduce diarrhea",
+          "Laxatives (e.g., psyllium, magnesium hydroxide) to alleviate constipation",
+          "Antiemetics (e.g., ondansetron, metoclopramide) for nausea and vomiting",
+          "Analgesics (e.g., acetaminophen, ibuprofen) for pain relief associated with stomach ache",
+          "Probiotics (e.g., Lactobacillus, Bifidobacterium) to restore gut flora balance and improve digestive health",
+          "Digestive enzyme supplements to aid in the breakdown of food and alleviate indigestion"
+        ],
+        "treatments":[
+          "Eating smaller, more frequent meals to prevent overloading the digestive system",
+          "Avoiding trigger foods that may exacerbate stomach ache (e.g., spicy or fatty foods, caffeine)",
+          "Drinking plenty of fluids to stay hydrated and aid digestion",
+          "Chewing food slowly and thoroughly to facilitate digestion",
+          "Taking over-the-counter medications as directed for symptom relief",
+          "Applying heat (e.g., heating pad) to the abdominal area to ease muscle tension and discomfort",
+          "Using relaxation techniques (e.g., deep breathing, meditation) to reduce stress and promote digestive health",
+          "Seeking medical attention if stomach ache persists or is severe, especially if accompanied by fever, vomiting blood, or bloody stools",
+          "Following specific dietary recommendations provided by a healthcare professional for managing underlying digestive conditions",
+          "Undergoing diagnostic tests (e.g., imaging studies, endoscopy) to identify the cause of chronic or recurrent stomach ache"
+        ]
+      }
+     
+,
+{
+  "tag": "fatigue",
+  "patterns": [
+    "Persistent tiredness or lack of energy",
+    "Feeling physically or mentally exhausted",
+    "Difficulty concentrating or focusing",
+    "fatigue",
+    "Reduced motivation or productivity",
+    "Muscle weakness or soreness",
+    "Sleep disturbances (insomnia or excessive sleepiness)",
+    "Irritability or mood swings",
+   
+    "Decreased physical stamina or endurance",
+    "Lack of interest in usual activities"
+  ],
+  "medications": [
+    "Stimulant medications (e.g., modafinil, methylphenidate) to improve alertness and reduce sleepiness",
+    "Antidepressants (e.g., selective serotonin reuptake inhibitors) for fatigue associated with depression or anxiety",
+    "Iron supplements for fatigue caused by iron deficiency anemia",
+    "Vitamin B12 supplements for fatigue associated with vitamin deficiencies",
+    "Thyroid hormone replacement therapy for fatigue due to hypothyroidism",
+    "Medications to manage underlying medical conditions contributing to fatigue (e.g., heart failure, chronic fatigue syndrome)",
+    "Wakefulness-promoting agents (e.g., armodafinil, caffeine) to increase alertness and energy levels",
+    "Medications to treat sleep disorders such as obstructive sleep apnea or restless legs syndrome",
+    "Adrenal hormone medications (e.g., hydrocortisone) for adrenal insufficiency-related fatigue",
+    "Antiviral medications for fatigue associated with viral infections such as Epstein-Barr virus (EBV)"
+  ],
+  "treatments":[
+    "Maintaining a regular sleep schedule and practicing good sleep hygiene",
+    "Engaging in regular physical activity or exercise to improve energy levels and mood",
+    "Eating a balanced diet rich in nutrients to support overall health and energy production",
+    "Managing stress through relaxation techniques such as meditation or yoga",
+    "Limiting caffeine and alcohol consumption, especially close to bedtime",
+    "Taking short breaks or naps throughout the day to recharge",
+    "Setting realistic goals and priorities to avoid overexertion",
+    "Seeking support from friends, family, or mental health professionals for emotional or psychological fatigue",
+    "Addressing underlying medical conditions or medication side effects that may contribute to fatigue",
+    "Participating in cognitive behavioral therapy (CBT) or other psychotherapy approaches to address fatigue-related cognitive distortions"
+  ]
+}
+
+,
+{
+  "tag": "rash",
+  "patterns": [
+    "Redness, itching, or irritation of the skin",
+    "Raised bumps or welts on skin",
+    "Blistering or vesicles filled with fluid",
+    "Scaling or flaking of the skin",
+    "Warmth or tenderness in the affected area on skin",
+    "Spreading of the rash to other parts of the body",
+    "rash",
+    "Rash worsened by heat or sweating",
+    "Rash triggered by exposure to allergens or irritants"
+  ],
+  "medications": [
+    "Topical corticosteroids (e.g., hydrocortisone cream) to reduce inflammation and itching",
+    "Antihistamines (e.g., diphenhydramine, cetirizine) to relieve itching and allergic reactions",
+    "Topical antifungal creams (e.g., clotrimazole, terbinafine) for fungal skin infections",
+    "Antibiotics (e.g., mupirocin, clindamycin) for bacterial skin infections",
+    "Oral antifungal medications (e.g., fluconazole, itraconazole) for severe or systemic fungal infections",
+    "Oral corticosteroids (e.g., prednisone) for widespread or severe inflammation",
+    "Antiviral medications (e.g., acyclovir, valacyclovir) for viral skin infections such as herpes",
+    "Immunosuppressive medications for autoimmune-related rashes (e.g., methotrexate, cyclosporine)",
+    "Topical calcineurin inhibitors (e.g., tacrolimus, pimecrolimus) for eczema and atopic dermatitis",
+    "Phototherapy (light therapy) for certain types of chronic or resistant skin conditions"
+  ],
+  "treatments":[
+    "Keeping the affected area clean and dry to prevent infection",
+    "Avoiding scratching or rubbing the rash to prevent further irritation",
+    "Using mild, fragrance-free skincare products and detergents",
+    "Applying cool compresses or taking cool baths to soothe itching and inflammation",
+    "Wearing loose-fitting clothing made of breathable fabrics",
+    "Avoiding known triggers or allergens that exacerbate the rash",
+    "Applying moisturizers or emollients to hydrate and protect the skin",
+    "Using barrier creams or ointments to protect the skin from irritants",
+    "Seeking medical evaluation for persistent or severe rashes, especially if accompanied by systemic symptoms",
+    "Following specific treatment recommendations provided by a healthcare professional based on the underlying cause of the rash"
+  ]
+}
+
+,
+{
+  "tag": "diarrhea",
+  "patterns": [
+    "Frequent, loose, or watery bowel movements",
+    "Abdominal cramps or abdominal pain ",
+    "Urgency to have a bowel movement",
+    "Bloating or gas",
+   
+    "diarrhea",
+    "Blood or mucus in stool",
+    "Dehydration (dry mouth, decreased urine output, dizziness)",
+    "Loss of appetite"
+   
+  ],
+  "medications": [
+    "Antidiarrheal agents (e.g., loperamide, bismuth subsalicylate) to reduce bowel movements and relieve symptoms",
+    "Antibiotics for diarrhea caused by bacterial infections (e.g., ciprofloxacin, azithromycin)",
+    "Antispasmodic medications (e.g., dicyclomine) to alleviate abdominal cramping",
+    "Probiotics (e.g., Lactobacillus, Bifidobacterium) to restore gut flora balance",
+    "Oral rehydration solutions (e.g., Pedialyte, Gatorade) to replace lost fluids and electrolytes",
+    "Anti-inflammatory drugs (e.g., corticosteroids) for diarrhea associated with inflammatory bowel disease",
+    "Anti-parasitic medications (e.g., metronidazole, albendazole) for diarrhea caused by parasitic infections",
+    "Stool softeners (e.g., docusate sodium) to ease bowel movements and reduce straining",
+    "Digestive enzyme supplements to aid in the breakdown of food and improve digestion",
+    "Medications to treat underlying conditions contributing to diarrhea (e.g., Crohn's disease, irritable bowel syndrome)"
+  ],
+  "treatments":[
+    "Drinking plenty of fluids to prevent dehydration",
+    "Following a bland diet (e.g., BRAT diet - bananas, rice, applesauce, toast) to ease digestive discomfort",
+    "Avoiding foods and beverages that can worsen diarrhea (e.g., caffeine, spicy foods, dairy products)",
+    "Practicing good hand hygiene to prevent the spread of infectious diarrhea",
+    "Resting and avoiding strenuous activity to conserve energy",
+    "Using over-the-counter analgesics (e.g., acetaminophen) for fever or body aches",
+    "Applying topical barrier creams or ointments to soothe irritated skin around the anus",
+    "Seeking medical attention if diarrhea persists for more than a few days, or if symptoms worsen or are severe",
+    "Undergoing diagnostic tests (e.g., stool culture, colonoscopy) to identify underlying causes of chronic diarrhea",
+    "Following treatment recommendations provided by a healthcare professional based on the underlying cause of diarrhea"
+  ]
+}
+
+,
+{
+  "tag": "shortness of breath",
+  "patterns": [
+    "Difficulty breathing or feeling like you can't get enough air",
+    "Rapid or shallow breathing",
+    "Tightness or discomfort in the chest",
+    "Wheezing or noisy breathing",
+    "Feeling like you're suffocating or choking",
+    "Breathlessness during physical activity",
+    "Anxiety or panic accompanying shortness of breath",
+    "Coughing or wheezing that worsens with exertion",
+    "Blue-tinged lips or fingernails",
+    "shortness of breath",
+    "Difficulty speaking due to breathlessness"
+  ],
+  "medications": [
+    "Bronchodilators (e.g., albuterol, ipratropium) to relax muscles in the airways and improve breathing",
+    "Corticosteroids (e.g., prednisone) to reduce airway inflammation and swelling",
+    "Inhaled corticosteroids (e.g., fluticasone, budesonide) for long-term control of asthma or COPD",
+    "Anticholinergics (e.g., tiotropium) to reduce bronchospasm and improve lung function",
+    "Beta-agonists (e.g., salbutamol, formoterol) to open airways and relieve shortness of breath",
+    "Diuretics (e.g., furosemide) to reduce fluid buildup in the lungs (pulmonary edema)",
+    "Antibiotics for respiratory infections causing shortness of breath (e.g., pneumonia)",
+    "Oxygen therapy to increase oxygen levels in the blood and alleviate breathlessness",
+    "Antianxiety medications (e.g., lorazepam) to reduce anxiety-induced shortness of breath",
+    "Pain relievers (e.g., morphine) to alleviate chest pain or discomfort contributing to breathlessness"
+  ],
+  "treatments":[
+    "Identifying and avoiding triggers such as allergens, pollutants, or smoke",
+    "Smoking cessation programs for individuals with smoking-related lung diseases",
+    "Pulmonary rehabilitation to improve lung function and exercise tolerance",
+    "Breathing exercises (e.g., pursed-lip breathing, diaphragmatic breathing) to enhance respiratory muscle strength and control",
+    "Physical therapy to address underlying musculoskeletal issues affecting breathing mechanics",
+    "Weight management programs for individuals with obesity-related breathing difficulties",
+    "Continuous positive airway pressure (CPAP) therapy for sleep-related breathing disorders such as sleep apnea",
+    "Managing underlying medical conditions contributing to shortness of breath (e.g., heart failure, COPD)",
+    "Avoiding excessive physical exertion and pacing activities to conserve energy",
+    "Regular monitoring of symptoms and adjustments to treatment plans as needed"
+  ]
+}
+
+,
+{
+  "tag": "joint pain",
+  "patterns": [
+    "Pain, stiffness, or swelling in one or more joints",
+    "Limited range of motion in the affected joint(s)",
+    "Warmth or redness around the joint",
+    "Joint tenderness or sensitivity to touch",
+    "Difficulty bearing weight on the affected joint",
+    "Joint instability or feeling of looseness",
+    "Cracking or popping sensations with movement",
+    "Joint pain worsened by activity or prolonged sitting/standing",
+    "Joint pain accompanied by fever or chills",
+    "joint pain",
+    "Joint pain after an injury or trauma"
+  ],
+  "medications": [
+    "Nonsteroidal anti-inflammatory drugs (NSAIDs) (e.g., ibuprofen, naproxen)",
+    "Acetaminophen (paracetamol) for mild to moderate joint pain",
+    "Topical analgesics (e.g., diclofenac gel, capsaicin cream) for localized pain relief",
+    "Corticosteroid injections for severe joint inflammation",
+    "Disease-modifying antirheumatic drugs (DMARDs) for inflammatory joint conditions (e.g., methotrexate, sulfasalazine)",
+    "Biologic agents (e.g., TNF inhibitors, interleukin inhibitors) for autoimmune-related joint pain",
+    "Muscle relaxants (e.g., cyclobenzaprine) for joint pain associated with muscle tension",
+    "Opioid analgesics (e.g., tramadol, oxycodone) for severe or chronic joint pain",
+    "Hydroxychloroquine for joint pain related to autoimmune diseases",
+    "Colchicine for joint pain associated with gout"
+  ],
+  "treatments":[
+    "Resting and elevating the affected joint",
+    "Applying ice packs or cold compresses to reduce inflammation",
+    "Using heat therapy (e.g., warm towels, heating pads) to alleviate joint stiffness",
+    "Engaging in low-impact exercises (e.g., swimming, biking) to maintain joint mobility",
+    "Practicing gentle stretching exercises to improve flexibility and range of motion",
+    "Maintaining a healthy weight to reduce stress on weight-bearing joints",
+    "Wearing supportive footwear or orthotic inserts",
+    "Using assistive devices (e.g., canes, braces) to support and stabilize joints",
+    "Physical therapy to strengthen muscles surrounding the affected joint",
+    "Surgery (e.g., joint replacement, arthroscopy) for severe joint damage or degeneration"
+  ]
+}
+
+,
+{
+  "tag": "dizziness",
+  "patterns": [
+    "Feeling lightheaded or faint",
+    "Sensation of spinning or vertigo",
+    "Unsteadiness or loss of balance",
+    "Dizziness triggered by changes in position (e.g., standing up quickly)",
+    "Nausea or vomiting associated with dizziness",
+    "Blurry vision or visual disturbances",
+    "Ringing in the ears (tinnitus)",
+    "Sweating or clamminess",
+    "Feeling disoriented or confused",
+    "dizziness",
+    "Anxiety or panic in response to dizziness"
+  ],
+  "medications": [
+    "Antihistamines (e.g., meclizine, dimenhydrinate) for motion sickness or vestibular disorders",
+    "Antiemetics (e.g., ondansetron, promethazine) for nausea associated with dizziness",
+    "Benzodiazepines (e.g., diazepam, lorazepam) for dizziness related to anxiety or panic attacks",
+    "Vestibular suppressants (e.g., benzodiazepines, anticholinergics) for acute vertigo",
+    "Anticholinergic medications (e.g., scopolamine) for dizziness caused by inner ear problems",
+    "Beta-blockers (e.g., propranolol) for dizziness associated with vestibular migraines",
+    "Diuretics (e.g., hydrochlorothiazide) for dizziness related to Meniere's disease",
+    "Anticonvulsants (e.g., gabapentin) for dizziness associated with vestibular neuritis or labyrinthitis",
+    "Calcium channel blockers (e.g., verapamil) for dizziness due to orthostatic hypotension",
+    "Antidepressants (e.g., selective serotonin reuptake inhibitors) for dizziness related to psychiatric conditions"
+  ],
+  "treatments":[
+    "Epley maneuver or canalith repositioning maneuvers for benign paroxysmal positional vertigo (BPPV)",
+    "Vestibular rehabilitation therapy (VRT) to improve balance and reduce dizziness",
+    "Hydration and electrolyte balance for dizziness due to dehydration",
+    "Avoiding triggers such as caffeine, alcohol, and tobacco",
+    "Using assistive devices (e.g., canes, walkers) for stability and safety",
+    "Balance training exercises to strengthen muscles and improve proprioception",
+    "Managing stress and anxiety through relaxation techniques",
+    "Physical therapy to address underlying musculoskeletal or neurological issues",
+    "Dietary modifications (e.g., low-sodium diet) for dizziness related to Meniere's disease",
+    "Lifestyle changes (e.g., regular exercise, adequate sleep) to promote overall well-being and reduce dizziness"
+  ]
+}
+
+,
+{
+  "tag": "sneezing",
+  "patterns": [
+    "Sudden, involuntary expulsion of air through the nose and mouth",
+    "Itchy or watery eyes",
+    "Runny or stuffy nose",
+    "Tickling sensation in the nose",
+    "Frequent bouts of sneezing",
+    "Nasal congestion or blockage",
+    "Sore throat or coughing",
+    "Fatigue or irritability due to disrupted sleep",
+    "Sensitivity to allergens or irritants",
+    "sneezing",
+    "Postnasal drip"
+  ],
+  "medications": [
+    "Antihistamines (e.g., loratadine, cetirizine) to reduce sneezing associated with allergies",
+    "Decongestants (e.g., pseudoephedrine, phenylephrine) to relieve nasal congestion",
+    "Intranasal corticosteroids (e.g., fluticasone, budesonide) to reduce inflammation and sneezing",
+    "Antitussives (e.g., dextromethorphan) to suppress coughing",
+    "Nasal ipratropium (Atrovent) to reduce nasal secretions and sneezing",
+    "Leukotriene receptor antagonists (e.g., montelukast) for allergic rhinitis symptoms including sneezing",
+    "Mast cell stabilizers (e.g., cromolyn sodium) to prevent sneezing triggered by allergens",
+    "Anticholinergic nasal sprays (e.g., ipratropium bromide) for sneezing and rhinorrhea",
+    "Saline nasal sprays or rinses to flush out irritants and reduce sneezing",
+    "Over-the-counter pain relievers (e.g., acetaminophen, ibuprofen) for discomfort associated with sneezing"
+  ],
+  "treatments":[
+    "Avoiding exposure to known allergens or irritants",
+    "Using air purifiers or HEPA filters to remove allergens from indoor air",
+    "Keeping windows closed during high pollen seasons",
+    "Wearing a mask when gardening or doing yard work",
+    "Using nasal irrigation (e.g., neti pot) to clear nasal passages",
+    "Practicing good hand hygiene to prevent the spread of respiratory infections",
+    "Keeping pets out of sleeping areas",
+    "Using hypoallergenic bedding and pillow covers",
+    "Avoiding tobacco smoke and other air pollutants",
+    "Consulting an allergist for allergy testing and personalized treatment recommendations"
+  ]
+}
+
+,
+{
+  "tag": "insomnia",
+  "patterns": [
+    "Difficulty falling asleep",
+    "Frequent awakenings during the night",
+    "Waking up too early in the morning",
+    "Non-restorative sleep",
+    "Daytime sleepiness or fatigue",
+    "Difficulty concentrating or focusing",
+    "Irritability or mood disturbances",
+    "Anxiety or worry about sleep",
+    "Muscle tension or headaches upon awakening",
+    "insomnia",
+    "Impaired performance at work or school"
+  ],
+  "medications": [
+    "Non-benzodiazepine hypnotics (e.g., zolpidem, eszopiclone)",
+    "Benzodiazepines (e.g., lorazepam, temazepam) for short-term insomnia",
+    "Melatonin receptor agonists (e.g., ramelteon)",
+    "Antidepressants with sedative properties (e.g., trazodone, amitriptyline)",
+    "Antihistamines with sedative effects (e.g., diphenhydramine, doxylamine)",
+    "Suvorexant (Belsomra) for difficulty falling asleep or staying asleep",
+    "Orexin receptor antagonists (e.g., suvorexant) for insomnia with difficulty staying asleep",
+    "Antipsychotics (e.g., quetiapine) for insomnia associated with psychiatric disorders",
+    "Sedative-hypnotic combinations (e.g., diphenhydramine and doxylamine with pain relievers)"
+  ],
+  "treatments":[
+    "Cognitive-behavioral therapy for insomnia (CBT-I) to address underlying sleep disturbances",
+    "Sleep hygiene education (e.g., maintaining a regular sleep schedule, avoiding stimulants)",
+    "Relaxation techniques (e.g., progressive muscle relaxation, deep breathing exercises)",
+    "Stimulus control therapy to associate the bed with sleep",
+    "Sleep restriction therapy to consolidate sleep and improve sleep efficiency",
+    "Biofeedback to reduce muscle tension and stress",
+    "Light therapy for circadian rhythm disorders",
+    "Acupuncture or acupressure for relaxation and sleep promotion",
+    "Sleep environment optimization (e.g., comfortable mattress, dark room, white noise)",
+    "Medication review and management to identify and address medication-related insomnia"
+  ]
+}
+
+,
+{
+  "tag": "muscle cramps",
+  "patterns": [
+    "Sudden, involuntary muscle contractions",
+    "Muscle tightness or stiffness",
+    "Sharp muscular pain or discomfort in muscles",
+    "Visible bulging or twitching of the affected muscle",
+    "Difficulty moving or using the muscle",
+    "Muscle soreness after cramping",
+    "Cramps typically occur during or after physical activity",
+    "muscle cramps",
+    "Dehydration or electrolyte imbalances may contribute to muscle cramps",
+    "Certain medications or medical conditions may increase the risk of muscle cramps"
+  ],
+  "medications": [
+    "Over-the-counter pain relievers (e.g., acetaminophen, ibuprofen)",
+    "Topical muscle creams or ointments (e.g., Bengay, IcyHot)",
+    "Magnesium supplements (for individuals with low magnesium levels)",
+    "Calcium supplements (for individuals with low calcium levels)",
+    "Potassium supplements (for individuals with low potassium levels)",
+    "Vitamin D supplements (for individuals with low vitamin D levels)",
+    "Quinine (for nocturnal leg cramps, with caution and under medical supervision)",
+    "Prescription muscle relaxants (for severe or chronic muscle cramps)",
+    "Antispasmodic medications (for muscle spasms associated with cramps)",
+    "Botulinum toxin injections (for severe or chronic muscle spasms)"
+  ],
+  "treatments":[
+    "Stretching and massaging the affected muscle",
+    "Applying heat or cold therapy to the muscle",
+    "Drinking plenty of water to stay hydrated",
+    "Consuming electrolyte-rich fluids (e.g., sports drinks)",
+    "Eating a balanced diet with adequate minerals and vitamins",
+    "Avoiding overexertion or sudden changes in physical activity",
+    "Maintaining proper posture and body mechanics",
+    "Using proper footwear and equipment during physical activity",
+    "Practicing relaxation techniques (e.g., deep breathing, meditation)",
+    "Seeking medical evaluation for frequent or severe muscle cramps"
+  ]
+}
+
+,
+{
+  "tag": "burns",
+  "patterns": [
+    "Redness and pain at the site of the burn",
+    "Swelling and blisters due to burn",
+    "Peeling skin after burn",
+    "White or charred skin",
+    "burns",
+    "Difficulty moving the affected burnt area "
+   
+   
+  ],
+  "medications": [
+    "Over-the-counter pain relievers (e.g., acetaminophen, ibuprofen)",
+    "Topical burn creams or ointments (e.g., silvadene, Bacitracin)",
+    "Antibiotic ointments or creams (for second-degree burns to prevent infection)",
+    "Non-adherent dressings (e.g., Telfa pads) to cover the burn",
+    "Hydrogel dressings to provide moisture and promote healing",
+    "Silver sulfadiazine cream (for second-degree burns)",
+    "Prescription-strength pain medications (for severe pain)",
+    "Burn-specific medications (e.g., mafenide acetate cream)",
+    "Antihistamines (for itching associated with healing burns)",
+    "Steroid creams or ointments (for reducing inflammation)"
+  ],
+  "treatments":[
+    "Cooling the burn with cool (not cold) water for at least 10 minutes",
+    "Covering the burn with a clean, dry cloth or sterile bandage",
+    "Avoiding applying ice directly to the burn",
+    "Elevating the burned area if possible",
+    "Seeking medical attention for severe burns or burns covering a large area",
+    "Removing clothing or jewelry near the burn (unless it's stuck to the skin)",
+    "Avoiding popping blisters",
+    "Taking pain relievers as directed by a healthcare professional",
+    "Following prescribed burn care instructions",
+    "Monitoring the burn for signs of infection (e.g., increased pain, redness, pus)"
+  ]
+}
+
+,
+{
+  "tag": "anxiety",
+  "patterns": [
+    "Excessive worry or apprehension",
+    "Feeling nervous or on edge",
+    "Restlessness or inability to relax",
+    "Irritability or mood swings",
+    "Difficulty concentrating or focusing",
+    "Muscle tension or soreness",
+    "Rapid heartbeat or palpitations",
+    "Shortness of breath or shallow breathing",
+    "Agitation or restlessness",
+    "anxiety",
+    "Sweating or trembling"
+   
+  ],
+  "medications": [
+    "Selective serotonin reuptake inhibitors (SSRIs) (e.g., sertraline, escitalopram)",
+    "Serotonin-norepinephrine reuptake inhibitors (SNRIs) (e.g., venlafaxine, duloxetine)",
+    "Benzodiazepines (e.g., alprazolam, clonazepam) for short-term relief of severe anxiety",
+    "Buspirone (BuSpar) for generalized anxiety disorder (GAD)",
+    "Beta-blockers (e.g., propranolol) for managing physical symptoms of anxiety (e.g., rapid heartbeat)",
+    "Tricyclic antidepressants (TCAs) (e.g., imipramine, nortriptyline) for anxiety disorders",
+    "Monoamine oxidase inhibitors (MAOIs) (e.g., phenelzine, tranylcypromine) for treatment-resistant anxiety disorders",
+    "Antidepressants (e.g., mirtazapine, vortioxetine) for comorbid anxiety and depression",
+    "Antihistamines (e.g., hydroxyzine) for mild anxiety or as adjunctive therapy",
+    "Antipsychotic medications (e.g., quetiapine, olanzapine) for severe or treatment-resistant anxiety"
+  ],
+  "treatments":[
+    "Cognitive-behavioral therapy (CBT) to identify and modify negative thought patterns",
+    "Exposure therapy to gradually confront anxiety-provoking situations",
+    "Mindfulness-based stress reduction (MBSR) to increase awareness and reduce reactivity to stressors",
+    "Relaxation techniques (e.g., deep breathing, progressive muscle relaxation)",
+    "Dialectical behavior therapy (DBT) to develop coping skills for managing emotions and interpersonal conflicts",
+    "Acceptance and commitment therapy (ACT) to increase psychological flexibility and tolerance of distress",
+    "Support groups or group therapy to share experiences and learn coping strategies",
+    "Medication management under the supervision of a psychiatrist or primary care provider",
+    "Lifestyle modifications (e.g., regular exercise, adequate sleep, healthy diet)",
+    "Avoiding caffeine, alcohol, and recreational drugs that may exacerbate anxiety symptoms"
+  ]
+}
+
+,
+{
+  "tag": "depression",
+  "patterns": [
+    "Persistent sadness or emptiness",
+    "Loss of interest or pleasure in activities",
+    "Feeling sad or having a depressed mood",  
+    "Feeling worthless or guilty",
+    "Difficulty concentrating or making decisions",
+    "Suicidal thoughts or behaviors",
+    "depression",
+    "Irritability or angry outbursts",
+ 
+    "Social withdrawal or isolation",
+   
+    "Lack of motivation or interest in life"
+  ],
+  "medications": [
+    "Selective serotonin reuptake inhibitors (SSRIs) (e.g., fluoxetine, sertraline)",
+    "Serotonin-norepinephrine reuptake inhibitors (SNRIs) (e.g., venlafaxine, duloxetine)",
+    "Tricyclic antidepressants (TCAs) (e.g., amitriptyline, nortriptyline)",
+    "Monoamine oxidase inhibitors (MAOIs) (e.g., phenelzine, tranylcypromine)",
+    "Atypical antidepressants (e.g., bupropion, mirtazapine)",
+    "Norepinephrine-dopamine reuptake inhibitors (NDRIs) (e.g., bupropion)",
+    "Tetracyclic antidepressants (e.g., mirtazapine)",
+    "Noradrenergic and specific serotonergic antidepressants (NaSSAs) (e.g., mirtazapine)",
+    "Vortioxetine (Trintellix): An antidepressant affecting serotonin receptors in the brain",
+    "Brexpiprazole (Rexulti): An atypical antipsychotic used as adjunctive treatment for depression"
+  ],
+  "treatments":[
+    "Cognitive-behavioral therapy (CBT) to address negative thought patterns and behaviors",
+    "Interpersonal therapy (IPT) to improve communication and relationships",
+    "Psychodynamic therapy to explore unresolved conflicts and emotions",
+    "Behavioral activation to increase engagement in rewarding activities",
+    "Mindfulness-based cognitive therapy (MBCT) to prevent relapse",
+    "Supportive therapy to provide emotional support and coping skills",
+    "Electroconvulsive therapy (ECT) for severe or treatment-resistant depression",
+    "Transcranial magnetic stimulation (TMS) as a non-invasive brain stimulation technique",
+    "Vagus nerve stimulation (VNS) for treatment-resistant depression",
+    "Light therapy (phototherapy) for seasonal affective disorder (SAD)"
+  ]
+}
+
+,
+{
+  "tag": "toothache",
+  "patterns": [
+    "Sharp or throbbing pain in or around the tooth",
+    "Teeth Sensitivity to hot, cold, or sweet foods and drinks",
+    "Pain when biting or chewing",
+    "Swelling or tenderness around the tooth or gums",
+    "Pus discharge from the tooth or gums",
+    "Visible holes or pits in the tooth",
+    "Loose or wobbly tooth",
+    "toothache",
+    "Difficulty opening the mouth or jaw"
+  ],
+  "medications": [
+    "Over-the-counter pain relievers (e.g., acetaminophen, ibuprofen)",
+    "Topical numbing gels or creams (e.g., benzocaine)",
+    "Antibiotics (for bacterial infections)",
+    "Prescription-strength pain medications (for severe pain)",
+    "Antibacterial mouthwash (for gum infections)",
+    "Antifungal medications (for oral thrush)",
+    "Corticosteroids (for inflammation)",
+    "Decongestants (for sinus-related toothaches)",
+    "Antihistamines (for allergies)"
+  ],
+  "treatments":[
+    "Maintaining good oral hygiene (e.g., brushing, flossing, mouthwash)",
+    "Applying cold compresses to the outside of the cheek",
+    "Rinsing the mouth with warm salt water",
+    "Avoiding hard or sticky foods that may aggravate the toothache",
+    "Using a soft toothbrush and gentle brushing technique",
+    "Avoiding tobacco use and excessive alcohol consumption",
+    "Seeking dental evaluation for proper diagnosis and treatment",
+    "Treating underlying dental conditions (e.g., cavities, gum disease)",
+    "Following prescribed treatment regimen",
+    "Routine dental check-ups and cleanings"
+  ]
+}
+
+,
+{
+  "tag": "fatigue",
+  "patterns": [
+    "Persistent tiredness or exhaustion",
+    "Lack of energy or motivation",
+    "Feeling physically or mentally drained",
+    "Difficulty concentrating or remembering",
+    "Muscle weakness or soreness",
+    "Slowed reflexes or responses",
+    "Increased irritability or moodiness",
+    "fatigue",
+    "Decreased appetite or changes in weight",
+    "Feeling overwhelmed by everyday tasks"
+  ],
+  "medications": [
+    "Stimulants (e.g., caffeine, modafinil)",
+    "Antidepressants or mood stabilizers (if fatigue is associated with depression)",
+    "Wakefulness-promoting agents (e.g., armodafinil)",
+    "Hormonal medications (e.g., thyroid hormones for hypothyroidism)",
+    "Iron supplements (for iron-deficiency anemia)",
+    "Vitamin B12 supplements (for B12 deficiency)",
+    "Adrenal gland medications (for adrenal insufficiency)",
+    "Medications to treat underlying medical conditions (e.g., heart failure, chronic kidney disease)",
+    "Medications to manage symptoms of chronic illnesses (e.g., pain medications for fibromyalgia)"
+  ],
+  "treatments":[
+    "Getting adequate sleep and maintaining a regular sleep schedule",
+    "Engaging in regular physical activity or exercise",
+    "Eating a balanced diet rich in nutrients",
+    "Managing stress through relaxation techniques (e.g., meditation, yoga)",
+    "Avoiding excessive alcohol or caffeine consumption",
+    "Taking short breaks throughout the day to rest and recharge",
+    "Setting realistic goals and priorities",
+    "Seeking support from healthcare providers for underlying medical conditions",
+    "Addressing lifestyle factors that may contribute to fatigue (e.g., poor sleep habits, unhealthy diet)",
+    "Participating in counseling or therapy to address underlying psychological factors"
+  ]
+}
+
+,
+{
+  "tag": "heartburn",
+  "patterns": [
+    "Burning sensation in the chest (behind the breastbone)",
+    "Burning sensation that worsens when lying down or bending over",
+    "Regurgitation of stomach acid or food into the mouth",
+    "Sour or acidic taste in the mouth",
+    "heartburn",
+   
+   
+    "Feeling of a lump in the throat",
+    "Chest pain or discomfort",
+    "Excessive belching or burping"
+  ],
+  "medications": [
+    "Over-the-counter antacids (e.g., Tums, Rolaids)",
+    "H2-receptor blockers (e.g., ranitidine, famotidine)",
+    "Proton pump inhibitors (PPIs) (e.g., omeprazole, esomeprazole)",
+    "Antacids with alginic acid (e.g., Gaviscon)",
+    "Prokinetic agents (e.g., metoclopramide)",
+    "Foaming agents (e.g., Gaviscon)",
+    "Sucralfate (for mucosal protection)",
+    "Prescription-strength antacids or acid reducers",
+    "Antibiotics (for Helicobacter pylori infection)"
+  ],
+  "treatments":[
+    "Avoiding trigger foods and beverages (e.g., spicy, fatty, acidic)",
+    "Eating smaller, more frequent meals",
+    "Avoiding lying down or bending over after eating",
+    "Maintaining a healthy weight",
+    "Elevating the head of the bed",
+    "Quitting smoking",
+    "Reducing alcohol consumption",
+    "Wearing loose clothing",
+    "Avoiding eating within 2-3 hours of bedtime",
+    "Stress management techniques"
+  ]
+}
+
+,
+{
+  "tag": "conjunctivitis",
+  "patterns": [
+    "Redness in one or both eyes",
+    "Watery or teary eyes",
+    "Itchy or irritated eyes",
+    "Gritty sensation in the eyes",
+    "Swelling or puffiness around the eyes",
+    "Sensitivity to light (photophobia)",
+    "Thick, yellow, or green discharge from the eyes",
+    "Crusty eyelids, especially upon waking",
+    "conjunctivitis",
+    "Foreign body sensation in the eye"
+  ],
+  "medications": [
+    "Antibiotic eye drops or ointments (for bacterial conjunctivitis)",
+    "Antihistamine eye drops (for allergic conjunctivitis)",
+    "Artificial tears or lubricating eye drops",
+    "Topical corticosteroids (for severe inflammation)",
+    "Oral antihistamines (for allergic conjunctivitis)",
+    "Nonsteroidal anti-inflammatory drugs (NSAIDs) (for pain relief)",
+    "Decongestant eye drops (for conjunctivitis associated with allergies)",
+    "Prescription medications (for severe or recurrent conjunctivitis)",
+    "Cold compresses to soothe irritated eyes",
+    "Warm compresses to loosen crusts or debris"
+  ],
+  "treatments":[
+    "Practicing good hygiene (e.g., frequent handwashing, avoiding touching eyes)",
+    "Avoiding sharing towels, pillows, or makeup",
+    "Cleaning and disinfecting contact lenses and accessories",
+    "Avoiding wearing contact lenses until symptoms resolve",
+    "Using cool compresses to soothe itching and inflammation",
+    "Applying warm compresses to loosen crusts or discharge",
+    "Avoiding rubbing or touching the eyes",
+    "Replacing eye makeup and contact lens solutions",
+    "Seeking medical evaluation for severe or persistent symptoms",
+    "Following prescribed treatment regimen"
+  ]
+}
+
+,
+{
+  "tag": "constipation",
+  "patterns": [
+    "Infrequent bowel movements (typically fewer than three per week)",
+    "Difficulty passing stools",
+    "Hard or lumpy stools",
+    "Straining during bowel movements",
+    "Feeling of incomplete evacuation",
+    "Abdominal bloating or discomfort",
+    "Rectal pain or discomfort",
+    "Sensation of obstruction in the rectum",
+    "Passing small amounts of hard, dry stool",
+    "constipation",
+    "Nausea or loss of appetite"
+  ],
+  "medications": [
+    "Over-the-counter laxatives (e.g., bulk-forming, stimulant, osmotic)",
+    "Stool softeners (e.g., docusate sodium)",
+    "Fiber supplements (e.g., psyllium husk, methylcellulose)",
+    "Osmotic agents (e.g., polyethylene glycol)",
+    "Rectal suppositories or enemas (for immediate relief)",
+    "Prescription medications (e.g., lubiprostone, linaclotide)",
+    "Prokinetic agents (e.g., prucalopride) for chronic constipation",
+    "Magnesium hydroxide (for occasional constipation)",
+    "Mineral oil (for occasional constipation)",
+    "Topical analgesic creams or ointments (for rectal pain)"
+  ],
+  "treatments":[
+    "Increasing fiber intake through diet (e.g., fruits, vegetables, whole grains)",
+    "Drinking plenty of fluids to stay hydrated",
+    "Regular physical activity or exercise",
+    "Establishing a regular bowel routine (e.g., scheduling time for bowel movements)",
+    "Avoiding delaying or ignoring the urge to have a bowel movement",
+    "Taking time to relax and allow for uninterrupted bowel movements",
+    "Using a footstool to elevate the feet during bowel movements (to simulate squatting position)",
+    "Addressing underlying medical conditions contributing to constipation (e.g., hypothyroidism, diabetes)",
+    "Seeking medical evaluation for persistent or severe constipation",
+    "Avoiding excessive use of laxatives or enemas without medical supervision"
+  ]
+}
+
+,
+{
+  "tag": "fracture",
+  "patterns": [
+    "Pain, swelling, and tenderness around the injured area",
+    "Deformity or misalignment of the bone",
+    "Inability to bear weight or use the injured limb",
+    "Bruising or discoloration",
+    "Limited range of motion",
+    "Visible bone protruding through the skin (in open fractures)",
+    "Grating or popping sensation during movement",
+    "Numbness or tingling in the affected area",
+    "fracture",
+    "Difficulty moving or performing normal activities"
+   
+  ],
+  "medications": [
+    "Pain relievers (e.g., acetaminophen, ibuprofen)",
+    "Prescription pain medications (e.g., oxycodone, hydrocodone)",
+    "Anti-inflammatory medications (e.g., naproxen, diclofenac)",
+    "Muscle relaxants (e.g., cyclobenzaprine, methocarbamol)",
+    "Bone-strengthening medications (e.g., bisphosphonates)",
+    "Antibiotics (for open fractures to prevent infection)",
+    "Blood thinners (for fractures at risk of blood clots)"
+  ],
+  "treatments":[
+    "Immobilization with splints, casts, or braces",
+    "Reduction (repositioning) of the bone fragments",
+    "Surgery (e.g., open reduction internal fixation, ORIF)",
+    "Physical therapy for rehabilitation",
+    "Rest and elevation of the injured limb",
+    "Cold therapy (e.g., ice packs) to reduce swelling",
+    "Heat therapy (after initial swelling has decreased) to promote healing",
+    "Weight-bearing restrictions as advised by healthcare provider",
+    "Follow-up imaging to monitor healing progress",
+    "Nutritional support for bone health (e.g., calcium, vitamin D)"
+  ]
+}
+
+,
+{
+  "tag": "sunburn",
+  "patterns": [
+    "Red, tender, and inflamed skin",
+    "Warmth or heat radiating from the affected area",
+    "Pain or tenderness when touching the skin",
+    "sunburn",
+    "Swelling of the affected area",
+    "Blisters (in severe cases)",
+    "Peeling or flaking skin as the sunburn heals",
+    "Fever or chills in severe cases",
+    "Headache",
+    "Nausea or vomiting"
+  ],
+  "medications": [
+    "Over-the-counter pain relievers (e.g., ibuprofen, aspirin)",
+    "Topical corticosteroid creams or lotions (e.g., hydrocortisone)",
+    "Aloe vera gel or lotion to soothe the skin",
+    "Moisturizers or emollients to prevent dryness and itching",
+    "Antihistamines (e.g., diphenhydramine) for itching relief",
+    "Cooling sprays or gels containing lidocaine or menthol",
+    "Oral analgesics (e.g., acetaminophen) for pain relief",
+    "Topical antibiotic ointments (for blistered or broken skin)",
+    "Oral or topical corticosteroids (for severe inflammation)"
+  ],
+  "treatments":[
+    "Cool baths or showers to soothe the skin",
+    "Cold compresses or ice packs wrapped in a cloth",
+    "Avoiding further sun exposure until the sunburn heals",
+    "Drinking plenty of fluids to stay hydrated",
+    "Wearing loose, breathable clothing to prevent irritation",
+    "Protecting the sunburned skin from friction or pressure",
+    "Applying sunscreen with SPF 30 or higher before going outdoors",
+    "Seeking medical attention for severe sunburns (e.g., blistering, fever)",
+    "Using caution with home remedies (e.g., vinegar, toothpaste) that may irritate the skin",
+    "Monitoring for signs of infection (e.g., increased pain, pus)"
+  ]
+}
+
+,
+{
+  "tag": "earache",
+  "patterns": [
+    "Pain or discomfort in one or both ears",
+    "Earache worsened by pulling or pressing on the ear",
+    "Tenderness around the ear",
+    "Fluid drainage from the ear",
+    "Decreased hearing or hearing loss",
+    "Feeling of fullness or pressure in the ear",
+    "earache",
+    "Irritability or fussiness in ears (especially in infants and young children)"
+   
+  ],
+  "medications": [
+    "Over-the-counter pain relievers (e.g., acetaminophen, ibuprofen)",
+    "Ear drops containing analgesics (e.g., benzocaine)",
+    "Decongestants (e.g., pseudoephedrine) to relieve congestion",
+    "Antihistamines (e.g., diphenhydramine) for allergy-related earaches",
+    "Antibiotic ear drops (for bacterial infections)",
+    "Oral antibiotics (for severe or bacterial infections)",
+    "Corticosteroids (e.g., prednisone) for reducing inflammation",
+    "Medications for fever reduction (if fever is present)",
+    "Antiemetics (e.g., ondansetron) for nausea or vomiting"
+  ],
+  "treatments":[
+    "Warm compresses or heating pads applied to the affected ear",
+    "Over-the-counter ear pain relief remedies (e.g., warm olive oil drops)",
+    "Using a humidifier to add moisture to the air",
+    "Resting and avoiding activities that worsen symptoms",
+    "Drinking plenty of fluids to stay hydrated",
+    "Avoiding smoking and exposure to secondhand smoke",
+    "Avoiding inserting objects into the ear (e.g., cotton swabs)",
+    "Seeking medical evaluation for proper diagnosis and treatment",
+    "Following prescribed treatment regimen",
+    "Avoiding exposure to loud noises during recovery"
+  ]
+}
+
+,
+{
+  "tag": "sprains",
+  "patterns": [
+    "Pain, tenderness, and swelling around the affected joint",
+    "Difficulty moving the joint or bearing weight on it",
+    "sprains",
+    "Stiffness or decreased range of motion",
+    "Popping or tearing sensation at the time of injury",
+    "Instability or feeling of looseness in the joint",
+    "Warmth or redness over the injured area",
+    "Muscle spasms",
+    "Difficulty walking or using the affected limb",
+    "Grinding or popping sensation with movement"
+  ],
+  "medications": [
+    "Pain relievers (e.g., acetaminophen, ibuprofen)",
+    "Topical analgesic creams or sprays (e.g., diclofenac gel)",
+    "Muscle relaxants (e.g., methocarbamol, cyclobenzaprine)",
+    "Anti-inflammatory medications (e.g., naproxen, diclofenac)",
+    "Topical NSAIDs (e.g., diclofenac patches)",
+    "Prescription pain medications (for severe pain)"
+  ],
+  "treatments":[
+    "Resting the affected limb",
+    "Ice therapy (e.g., ice packs) to reduce swelling and pain",
+    "Compression with an elastic bandage to support the joint and reduce swelling",
+    "Elevation of the injured limb above heart level",
+    "Physical therapy for strengthening and rehabilitation",
+    "Splinting or bracing to stabilize the joint",
+    "Gradual return to activity or sports",
+    "Use of crutches or assistive devices if needed",
+    "Follow-up with healthcare provider for monitoring and guidance",
+    "Prevention strategies (e.g., proper warm-up, stretching, protective gear)"
+  ]
+}
+,
+{
+  "tag": "allergies",
+  "patterns": [
+    "Sudden Sneezing",
+    "allergies",
+    " Sudden Rash or hives",
+    "Sudden Fatigue",
+    "Sudden Coughing",
+    "Sudden Wheezing",
+    "Shortness of breath for no reason",
+    "Swelling of the face, lips, tongue, or throat suddenly"
+  ],
+  "medications": [
+    "Antihistamines (e.g., loratadine, cetirizine)",
+    "Decongestants (e.g., pseudoephedrine, phenylephrine)",
+    "Corticosteroids (e.g., prednisone, fluticasone)",
+    "Leukotriene inhibitors (e.g., montelukast)",
+    "Epinephrine auto-injectors (e.g., EpiPen) for severe allergic reactions",
+    "Mast cell stabilizers (e.g., cromolyn sodium)",
+    "Nasal antihistamine sprays (e.g., azelastine)",
+    "Oral decongestants (e.g., phenylephrine)",
+    "Anticholinergic nasal sprays (e.g., ipratropium bromide)",
+    "Allergy shots (immunotherapy)"
+  ],
+  "treatments":[
+    "Avoiding known allergens",
+    "Using air purifiers or HEPA filters",
+    "Keeping windows closed during high pollen seasons",
+    "Wearing a mask when gardening or doing outdoor activities",
+    "Taking showers and changing clothes after being outdoors",
+    "Using hypoallergenic bedding",
+    "Keeping pets out of the bedroom",
+    "Seeking medical advice for allergy testing and personalized treatment plans",
+    "Carrying an epinephrine auto-injector if at risk of anaphylaxis",
+    "Following up with allergist or immunologist for long-term management"
+  ]
+}
+,
+{
+  "tag": "asthma",
+  "patterns": [
+    "Coughing, especially at night or early morning",
+    "Wheezing or whistling sound when breathing out",
+    "Shortness of breath or chest tightness",
+    "Difficulty breathing",
+    "Frequent respiratory infections",
+    "asthma",
+    "Trouble sleeping due to coughing or wheezing",
+    "Anxiety or panic related to breathing difficulties",
+    "Decreased peak flow rate (PEFR) during asthma attacks"
+  ],
+  "medications": [
+    "Short-acting beta-agonists (e.g., albuterol) for quick relief of asthma symptoms",
+    "Inhaled corticosteroids (e.g., fluticasone, budesonide) to reduce airway inflammation",
+    "Long-acting beta-agonists (e.g., salmeterol) for long-term control of asthma symptoms",
+    "Leukotriene modifiers (e.g., montelukast) to reduce inflammation and mucus production",
+    "Combination inhalers containing corticosteroids and long-acting beta-agonists",
+    "Biologic therapies (e.g., omalizumab, mepolizumab) for severe asthma not controlled by other medications",
+    "Anticholinergic medications (e.g., ipratropium bromide) to help relax the muscles around the airways",
+    "Theophylline (a bronchodilator) to improve breathing by relaxing the muscles in the airways",
+    "Oral corticosteroids (e.g., prednisone) for short-term treatment of severe asthma attacks",
+    "Monoclonal antibodies (e.g., dupilumab) to target specific immune system proteins involved in asthma inflammation"
+  ],
+  "treatments":[
+    "Using a peak flow meter to monitor lung function",
+    "Avoiding asthma triggers such as allergens, smoke, and pollution",
+    "Using a spacer device with inhalers to improve medication delivery",
+    "Following an asthma action plan provided by a healthcare provider",
+    "Regular exercise to improve lung function and overall health",
+    "Getting vaccinated for influenza and pneumonia to prevent respiratory infections",
+    "Seeking emergency medical care for severe asthma attacks",
+    "Participating in asthma education programs to learn about self-management strategies",
+    "Monitoring asthma symptoms and adjusting medications as needed",
+    "Consulting an allergist or pulmonologist for specialized asthma care"
+  ]
+}
+,
+{
+  "tag": "food poisoning",
+  "patterns": [
+   
+    "Nausea after a particular meal",
+    "Vomiting after a particular meal",
+    "Diarrhea after a particular meal",
+    "food poisoning",
+    "Abdominal cramps after a particular meal",
+    "Fever after a particular meal",
+    "Headache after a particular meal",
+    "Muscle aches after a particular meal",
+    "Fatigue after a particular meal",
+    "Loss of appetite after a particular meal",
+    "Dehydration after a particular meal"
+  ],
+  "medications": [
+    "Anti-nausea medications (e.g., ondansetron)",
+    "Antidiarrheal medications (e.g., loperamide)",
+    "Electrolyte solutions (e.g., oral rehydration solutions) to prevent dehydration",
+    "Antipyretic medications (e.g., acetaminophen, ibuprofen) to reduce fever and relieve pain",
+    "Antibiotics (in severe cases with bacterial infection)"
+  ],
+  "treatments":[
+    "Drinking plenty of fluids to stay hydrated",
+    "Resting and allowing the body to recover",
+    "Avoiding solid foods until symptoms improve",
+    "Gradually reintroducing bland foods (e.g., crackers, rice)",
+    "Seeking medical attention if symptoms are severe or persist for more than a few days",
+    "Reporting suspected food poisoning to local health authorities or the FDA",
+    "Practicing good food safety habits to prevent future cases of food poisoning",
+    "Discarding spoiled or expired foods",
+    "Refrigerating perishable foods promptly",
+    "Thoroughly cooking meat, poultry, and seafood to kill harmful bacteria"
+  ]
+}
+,
+{
+  "tag": "uti",
+  "patterns": [
+    "Burning sensation or pain during urination",
+    "Frequent or intense urge to urinate",
+    "Passing small amounts of urine frequently",
+    "Cloudy or strong-smelling urine",
+    "Blood in the urine (hematuria)",
+    "Pelvic pain in women",
+    "uti",
+    "Rectal pain in men"
+   
+  ],
+  "medications": [
+    "Antibiotics (e.g., trimethoprim-sulfamethoxazole, nitrofurantoin)",
+    "Pain relievers (e.g., ibuprofen, acetaminophen) for discomfort and fever",
+    "Urinary analgesics (e.g., phenazopyridine) to relieve urinary tract pain",
+    "Alpha blockers (e.g., tamsulosin) to relax muscles in the bladder neck and urethra",
+    "Antispasmodic medications (e.g., oxybutynin) to reduce bladder spasms",
+    "Probiotics to restore healthy bacteria in the urinary tract",
+    "Methenamine (an antibiotic) to prevent recurrent UTIs",
+    "Estrogen therapy for postmenopausal women to reduce the risk of UTIs",
+    "Vaginal estrogen therapy for women with recurrent UTIs related to menopause",
+    "Natural remedies such as cranberry supplements or D-mannose"
+  ],
+  "treatments":[
+    "Drinking plenty of water to flush out bacteria",
+    "Urinating frequently to help eliminate bacteria",
+    "Avoiding irritants such as caffeine and alcohol",
+    "Practicing good hygiene, including wiping from front to back",
+    "Wearing cotton underwear and loose-fitting clothing",
+    "Emptying the bladder completely when urinating",
+    "Taking showers instead of baths",
+    "Using a heating pad to relieve pelvic pain",
+    "Seeking medical attention for severe or recurrent UTIs",
+    "Discussing preventive measures with a healthcare provider"
+  ]
+}
+,
+{
+  "tag": "migraine",
+  "patterns": [
+    "Throbbing or pulsating headache",
+    "Sensitivity to light (photophobia)",
+    "Sensitivity to sound (phonophobia)",
+    "Nausea or vomiting due to repeated headcahe",
+    "Aura (visual disturbances, sensory changes, or speech disturbances) due to headache",
+    "Visual disturbances (e.g., flashing lights, blind spots) due to headache",
+    "Feeling lightheaded or dizzy due to headache",
+    "Neck stiffness or muscle tension due to headache",
+    "Fatigue or weakness due to headache",
+    "migraine",
+    "Difficulty concentrating due to headache"
+  ],
+  "medications": [
+    "Abortive medications (e.g., triptans, ergotamines) to stop or reduce the severity of migraine attacks",
+    "Pain relievers (e.g., nonsteroidal anti-inflammatory drugs like ibuprofen or naproxen)",
+    "Anti-nausea medications (e.g., metoclopramide, prochlorperazine)",
+    "Corticosteroids (e.g., prednisone) for severe or prolonged migraine attacks",
+    "Preventive medications (e.g., beta-blockers, antidepressants) to reduce the frequency and severity of migraine attacks",
+    "Calcitonin gene-related peptide (CGRP) monoclonal antibodies (e.g., erenumab, fremanezumab)",
+    "Anticonvulsants (e.g., topiramate, valproic acid) for migraine prevention",
+    "Calcium channel blockers (e.g., verapamil) for migraine prevention",
+    "Botox injections (onabotulinumtoxinA) for chronic migraine prevention",
+    "Natural supplements (e.g., magnesium, riboflavin) for migraine prevention"
+  ],
+  "treatments":[
+    "Resting in a dark, quiet room",
+    "Applying cold packs or warm compresses to the head or neck",
+    "Massage or relaxation techniques to relieve muscle tension",
+    "Maintaining a regular sleep schedule and managing stress",
+    "Identifying and avoiding migraine triggers (e.g., certain foods, hormonal changes)",
+    "Keeping a migraine diary to track symptoms, triggers, and treatments",
+    "Practicing biofeedback or cognitive behavioral therapy",
+    "Staying hydrated and eating regular, balanced meals",
+    "Engaging in regular aerobic exercise",
+    "Discussing alternative therapies with a healthcare provider"
+  ]
+}
+,
+{
+  "tag": "acid reflux",
+  "patterns": [
+    "Heartburn or chest pain",
+    "Regurgitation of food or sour liquid",
+    "Difficulty swallowing (dysphagia)",
+    "Feeling of a lump in the throat (globus sensation)",
+    "Chronic cough or sore throat along with discomfort in heart",
+    "acid reflux",
+    "Sensation of a burning throat",
+    "Chronic bad breath (halitosis)"
+  ],
+  "medications": [
+    "Proton pump inhibitors (PPIs) (e.g., omeprazole, esomeprazole)",
+    "H2 receptor antagonists (e.g., ranitidine, famotidine)",
+    "Antacids (e.g., calcium carbonate, magnesium hydroxide)",
+    "Prokinetics (e.g., metoclopramide, domperidone)",
+    "Foaming agents (e.g., Gaviscon)",
+    "Alginates (e.g., alginate-antacid combinations)",
+    "Sucralfate (a mucosal protective agent)",
+    "Baclofen (a muscle relaxant) for reducing lower esophageal sphincter pressure",
+    "Probiotics to promote gut health and reduce reflux symptoms",
+    "Digestive enzymes to aid in food digestion and reduce symptoms"
+  ],
+  "treatments":[
+    "Avoiding trigger foods and beverages (e.g., spicy foods, caffeine, alcohol)",
+    "Eating smaller, more frequent meals",
+    "Avoiding lying down or bending over after eating",
+    "Elevating the head of the bed to reduce nighttime reflux",
+    "Losing weight if overweight or obese",
+    "Quitting smoking",
+    "Managing stress through relaxation techniques or therapy",
+    "Wearing loose-fitting clothing",
+    "Avoiding eating close to bedtime",
+    "Discussing surgical options with a gastroenterologist for severe cases"
+  ]
+}
+,
+{
+  "tag": "hypertension",
+  "patterns": [
+    "High systolic blood pressure (typically above 130 mm Hg)",
+    "High diastolic blood pressure (typically above 80 mm Hg)",
+    "Frequent headaches",
+    "Dizziness or lightheadedness",
+    "Blurred or double vision",
+    "hypertension",
+    "Shortness of breath",
+    "Fatigue or weakness",
+    "Irregular heartbeat (arrhythmia)",
+    "Blood in the urine (hematuria)"
+  ],
+  "medications": [
+    "Diuretics (e.g., hydrochlorothiazide, furosemide)",
+    "Angiotensin-converting enzyme (ACE) inhibitors (e.g., lisinopril, enalapril)",
+    "Angiotensin II receptor blockers (ARBs) (e.g., losartan, valsartan)",
+    "Calcium channel blockers (e.g., amlodipine, diltiazem)",
+    "Beta-blockers (e.g., metoprolol, carvedilol)",
+    "Alpha-blockers (e.g., doxazosin, prazosin)",
+    "Vasodilators (e.g., hydralazine, minoxidil)",
+    "Central alpha agonists (e.g., clonidine, methyldopa)",
+    "Renin inhibitors (e.g., aliskiren)",
+    "Combination medications (e.g., ACE inhibitor/diuretic combinations)"
+  ],
+  "treatments":[
+    "Adopting a healthy diet rich in fruits, vegetables, whole grains, and lean proteins",
+    "Reducing sodium intake to less than 2,300 mg per day",
+    "Limiting alcohol consumption",
+    "Engaging in regular aerobic exercise (e.g., brisk walking, swimming)",
+    "Quitting smoking",
+    "Maintaining a healthy weight",
+    "Managing stress through relaxation techniques or meditation",
+    "Getting adequate sleep (at least 7-8 hours per night)",
+    "Monitoring blood pressure regularly at home",
+    "Seeking medical advice for personalized treatment and management"
+  ]
+}
+,
+{
+  "tag": "hypotension",
+  "patterns": [
+    "Dizziness or lightheadedness",
+    "Fainting (syncope)",
+    "Blurred or tunnel vision",
+    "hypotension",
+    "Fatigue or weakness",
+    "Lack of concentration or confusion",
+    "Pale skin",
+    "Rapid or shallow breathing",
+    "Cold, clammy skin",
+    "Weak or rapid pulse"
+  ],
+  "medications": [
+    "Fludrocortisone (a mineralocorticoid) to increase blood volume",
+    "Midodrine (a vasoconstrictor) to raise blood pressure",
+    "Pyridostigmine (an acetylcholinesterase inhibitor) to improve nerve signal transmission",
+    "Erythropoietin-stimulating agents (e.g., epoetin alfa) to increase red blood cell production",
+    "Octreotide (a vasoconstrictor) to reduce blood pooling in the legs",
+    "Nonsteroidal anti-inflammatory drugs (NSAIDs) to reduce blood vessel dilation",
+    "Fludarabine (a chemotherapy drug) to suppress the immune system",
+    "Droxidopa (a norepinephrine precursor) to increase blood pressure",
+    "Yohimbine (an alpha-2 adrenergic antagonist) to increase norepinephrine release",
+    "Caffeine (in moderation) to temporarily raise blood pressure"
+  ],
+  "treatments":[
+    "Increasing salt intake (under medical supervision)",
+    "Drinking more fluids, especially water",
+    "Wearing compression stockings to prevent blood pooling in the legs",
+    "Eating smaller, more frequent meals to prevent postprandial hypotension",
+    "Avoiding prolonged standing or sitting",
+    "Gradually changing positions to minimize sudden drops in blood pressure",
+    "Avoiding hot environments or hot showers",
+    "Using caution with medications that can lower blood pressure (e.g., diuretics)",
+    "Using caution when consuming alcohol",
+    "Seeking medical advice for underlying causes and appropriate management"
+  ]
+}
+,
+{
+  "tag": "osteoarthritis",
+  "patterns": [
+    "Joint pain",
+    "Stiffness in affected joints",
+    "Swelling or tenderness in affected joints",
+    "Decreased range of motion",
+    "Joint instability",
+    "Cracking or popping sensations in joints",
+    "Bony enlargements or bone spurs",
+    "osteoarthritis",
+    "Weakness in affected joints",
+    "Difficulty with daily activities (e.g., walking, climbing stairs)",
+    "Joint deformities"
+  ],
+  "medications": [
+    "Acetaminophen (Tylenol) for mild to moderate pain relief",
+    "Nonsteroidal anti-inflammatory drugs (NSAIDs) (e.g., ibuprofen, naproxen)",
+    "Topical analgesics (e.g., capsaicin, diclofenac gel)",
+    "Corticosteroid injections (e.g., triamcinolone) for short-term pain relief",
+    "Hyaluronic acid injections (e.g., hyaluronan) to lubricate and cushion joints",
+    "Duloxetine (a serotonin-norepinephrine reuptake inhibitor) for pain relief",
+    "Tramadol (an opioid analgesic) for moderate to severe pain",
+    "Disease-modifying antirheumatic drugs (DMARDs) (e.g., methotrexate) for inflammatory arthritis",
+    "Glucosamine and chondroitin supplements for symptom relief",
+    "Calcitonin (a hormone) nasal spray for pain relief"
+  ],
+  "treatments":[
+    "Regular exercise to improve joint flexibility and strength",
+    "Physical therapy to learn exercises and techniques for pain management",
+    "Weight management to reduce stress on weight-bearing joints",
+    "Using assistive devices (e.g., canes, braces) to support joints",
+    "Applying heat or cold packs to relieve pain and inflammation",
+    "Trying acupuncture or tai chi for pain relief and stress reduction",
+    "Following a balanced diet rich in fruits, vegetables, and omega-3 fatty acids",
+    "Avoiding repetitive movements or heavy lifting that strain joints",
+    "Using joint protection techniques during daily activities",
+    "Considering surgical options (e.g., joint replacement) for severe osteoarthritis"
+  ]
+}
+,
+{
+  "tag": "rheumatoid arthritis",
+  "patterns": [
+   
+    "Morning stiffness lasting more than 30 minutes",
+    "Fatigue or malaise",
+    "Low-grade fever",
+    "Loss of appetite",
+    "rheumatoid arthritis",
+    "Dry eyes or mouth (Sjogren's syndrome)",
+    "Nodules under the skin (rheumatoid nodules)",
+    "Chest pain when breathing (pleurisy)",
+    "Numbness or tingling in hands and feet",
+    "Decreased range of motion in affected joints"
+  ],
+  "medications": [
+    "Disease-modifying antirheumatic drugs (DMARDs) (e.g., methotrexate, hydroxychloroquine)",
+    "Biologic response modifiers (e.g., adalimumab, etanercept)",
+    "Corticosteroids (e.g., prednisone, methylprednisolone)",
+    "Nonsteroidal anti-inflammatory drugs (NSAIDs) (e.g., ibuprofen, naproxen)",
+    "Analgesics (e.g., acetaminophen) for pain relief",
+    "Immunosuppressants (e.g., azathioprine, cyclosporine)",
+    "Janus kinase (JAK) inhibitors (e.g., tofacitinib, baricitinib)",
+    "Interleukin-6 (IL-6) inhibitors (e.g., tocilizumab, sarilumab)",
+    "Tumor necrosis factor (TNF) inhibitors (e.g., infliximab, certolizumab)",
+    "B-cell inhibitors (e.g., rituximab, belimumab)"
+  ],
+  "treatments":[
+    "Physical or occupational therapy to improve joint function and mobility",
+    "Regular exercise to strengthen muscles and maintain flexibility",
+    "Heat or cold therapy to reduce pain and inflammation",
+    "Rest and relaxation techniques to manage stress and fatigue",
+    "Joint protection techniques during daily activities",
+    "Splints or braces to support and stabilize affected joints",
+    "Dietary modifications to reduce inflammation and promote overall health",
+    "Smoking cessation to reduce disease activity and complications",
+    "Regular monitoring by a rheumatologist for disease progression",
+    "Surgical interventions (e.g., joint replacement) for severe joint damage"
+  ]
+}
+,
+{
+  "tag": "allergic rhinitis",
+  "patterns": [
+    "Sneezing",
+    "Runny or stuffy nose",
+    "Itchy or watery eyes",
+    "Itchy throat or ears along with fatigue and nausea",
+   
+    "allergic rhinitis",
+   
+    "Dark circles under the eyes",
+    "Decreased sense of smell or taste along with headache",
+   
+    "Postnasal drip"
+  ],
+  "medications": [
+    "Antihistamines (e.g., loratadine, cetirizine)",
+    "Intranasal corticosteroids (e.g., fluticasone, budesonide)",
+    "Decongestants (e.g., pseudoephedrine, phenylephrine)",
+    "Leukotriene modifiers (e.g., montelukast)",
+    "Nasal ipratropium (e.g., Atrovent nasal spray)",
+    "Allergy shots (immunotherapy)",
+    "Anticholinergic nasal sprays (e.g., ipratropium bromide)",
+    "Mast cell stabilizers (e.g., cromolyn sodium)",
+    "Nasal saline irrigation",
+    "Oral corticosteroids (for severe cases)"
+  ],
+  "treatments":[
+    "Avoiding allergens (e.g., pollen, pet dander)",
+    "Using air purifiers or allergen-proof bedding",
+    "Keeping windows closed during high pollen seasons",
+    "Wearing sunglasses and hats outdoors",
+    "Using nasal saline rinses or sprays",
+    "Avoiding tobacco smoke and other irritants",
+    "Practicing good hand hygiene",
+    "Keeping indoor humidity levels low",
+    "Using over-the-counter antihistamine eye drops",
+    "Consulting an allergist for personalized treatment plans"
+  ]
+}
+,
+{
+  "tag": "anxiety disorders",
+  "patterns": [
+    "Excessive worry or fear",
+    "Restlessness or irritability",
+    "Difficulty concentrating",
+    "Muscle tension",
+    "Rapid heartbeat",
+    "Shortness of breath",
+    "Sweating",
+    "Trembling",
+    "Insomnia",
+    "Gastrointestinal problems"
+  ],
+  "medications": [
+    "Selective serotonin reuptake inhibitors (SSRIs) (e.g., sertraline, escitalopram)",
+    "Serotonin-norepinephrine reuptake inhibitors (SNRIs) (e.g., venlafaxine, duloxetine)",
+    "Benzodiazepines (e.g., alprazolam, clonazepam) for short-term relief",
+    "Beta-blockers (e.g., propranolol) for physical symptoms",
+    "Tricyclic antidepressants (TCAs) (e.g., imipramine, amitriptyline)",
+    "Buspirone (a serotonin receptor agonist)",
+    "Hydroxyzine (an antihistamine with anxiolytic properties)",
+    "Pregabalin (an anticonvulsant)",
+    "Gabapentin (an anticonvulsant)",
+    "Antidepressants with anxiolytic properties (e.g., mirtazapine)"
+  ],
+  "treatments":[
+    "Cognitive-behavioral therapy (CBT)",
+    "Exposure therapy",
+    "Mindfulness meditation",
+    "Relaxation techniques (e.g., deep breathing, progressive muscle relaxation)",
+    "Regular physical exercise",
+    "Limiting caffeine and alcohol intake",
+    "Maintaining a healthy diet",
+    "Adequate sleep hygiene practices",
+    "Social support and talking to trusted individuals",
+    "Stress management techniques"
+  ]
+}
+,
+{
+  "tag": "pneumonia",
+  "patterns": [
+    "Cough with phlegm",
+    "Fever or chills",
+    "Shortness of breath",
+    "Chest pain that worsens with breathing or coughing",
+   
+    "Muscle aches",
+    "pneumonia",
+   
+    "Confusion (especially in older adults)",
+    "Bluish lips or nails (in severe cases)"
+  ],
+  "medications": [
+    "Antibiotics (e.g., amoxicillin, azithromycin) for bacterial pneumonia",
+    "Antiviral medications (e.g., oseltamivir) for viral pneumonia",
+    "Antifungal medications (e.g., fluconazole) for fungal pneumonia",
+    "Cough suppressants (e.g., dextromethorphan)",
+    "Expectorants (e.g., guaifenesin) to help loosen mucus",
+    "Bronchodilators (e.g., albuterol) for wheezing or bronchospasm",
+    "Nonsteroidal anti-inflammatory drugs (NSAIDs) for fever and pain relief",
+    "Corticosteroids (e.g., prednisone) for severe inflammation",
+    "Intravenous fluids and electrolytes for dehydration",
+    "Supplemental oxygen therapy for severe cases"
+  ],
+  "treatments":[
+    "Resting and allowing the body to heal",
+    "Drinking plenty of fluids to stay hydrated",
+    "Using a humidifier or steam inhalation to relieve congestion",
+    "Getting vaccinated against bacterial and viral pathogens that can cause pneumonia",
+    "Practicing good hand hygiene to prevent the spread of infections",
+    "Avoiding smoking and secondhand smoke exposure",
+    "Seeking medical attention promptly for symptoms of pneumonia",
+    "Following the prescribed antibiotic regimen completely",
+    "Following up with healthcare providers for monitoring and recovery",
+    "Receiving respiratory therapy or pulmonary rehabilitation if needed"
+  ]
+}
+,
+{
+  "tag": "bronchitis",
+  "patterns": [
+    "Persistent cough with or without phlegm",
+   
+    "Shortness of breath",
+    "Chest discomfort or pain",
+    "Sore throat",
+    "Low-grade fever",
+    "Nasal congestion",
+    "bronchitis",
+    "Wheezing",
+    "Hoarseness"
+  ],
+  "medications": [
+    "Antibiotics (e.g., azithromycin, amoxicillin) for bacterial bronchitis",
+    "Bronchodilators (e.g., albuterol) to open airways and relieve wheezing",
+    "Cough suppressants (e.g., dextromethorphan) to suppress coughing",
+    "Expectorants (e.g., guaifenesin) to help loosen and expel mucus",
+    "Nonsteroidal anti-inflammatory drugs (NSAIDs) for pain and fever relief",
+    "Corticosteroids (e.g., prednisone) to reduce inflammation and mucus production",
+    "Antiviral medications (e.g., oseltamivir) for viral bronchitis",
+    "Mucolytics (e.g., acetylcysteine) to thin mucus secretions",
+    "Inhaled corticosteroids (e.g., fluticasone) for chronic bronchitis",
+    "Antihistamines (e.g., loratadine) for allergic bronchitis"
+  ],
+  "treatments":[
+    "Getting plenty of rest",
+    "Staying hydrated by drinking fluids",
+    "Using a humidifier to moisten the air",
+    "Avoiding irritants such as smoke and pollutants",
+    "Avoiding cough suppressants if coughing up mucus",
+    "Using over-the-counter pain relievers for discomfort",
+    "Practicing good hand hygiene to prevent spreading the infection",
+    "Following up with healthcare provider for monitoring and treatment adjustments",
+    "Quitting smoking and avoiding secondhand smoke",
+    "Getting vaccinated against influenza and pertussis"
+  ]
+}
+,
+{
+  "tag": "sinusitis",
+  "patterns": [
+    "Facial pain or pressure",
+    "sinusitis",
+    "Nasal congestion along with Bad breath",
+    "Runny nose",
+    "Thick, discolored nasal discharge",
+    "Postnasal drip and Sore throat"
+   
+   
+  ],
+  "medications": [
+    "Antibiotics (e.g., amoxicillin, azithromycin) for bacterial sinusitis",
+    "Decongestants (e.g., pseudoephedrine, phenylephrine) to reduce nasal congestion",
+    "Nasal corticosteroids (e.g., fluticasone, mometasone) to reduce inflammation",
+    "Antihistamines (e.g., cetirizine, loratadine) for allergies causing sinusitis",
+    "Saline nasal irrigation or saline nasal sprays to flush out mucus and allergens",
+    "Pain relievers (e.g., acetaminophen, ibuprofen) for pain and fever relief",
+    "Mucolytics (e.g., guaifenesin) to help thin and loosen mucus",
+    "Topical decongestants (e.g., oxymetazoline) for short-term relief of nasal congestion",
+    "Antifungal medications (e.g., fluconazole) for fungal sinusitis",
+    "Intranasal anticholinergic agents (e.g., ipratropium) to reduce nasal discharge"
+  ],
+  "treatments":[
+    "Using a humidifier to add moisture to the air",
+    "Applying warm compresses to the face to relieve pain and pressure",
+    "Avoiding allergens and irritants that can trigger sinusitis",
+    "Drinking plenty of fluids to stay hydrated",
+    "Getting plenty of rest to aid in recovery",
+    "Avoiding overuse of nasal decongestant sprays to prevent rebound congestion",
+    "Rinsing nasal passages with saline solution regularly",
+    "Practicing good hand hygiene to prevent spreading the infection",
+    "Avoiding exposure to cigarette smoke and other pollutants",
+    "Using over-the-counter pain relievers and decongestants as directed"
+  ]
+}
+,
+{
+  "tag": "gastroenteritis",
+  "patterns": [
+    "Nausea with acidity",
+    "Vomiting with acidity",
+    "Diarrhea with acidity",
+    "Abdominal cramps with acidity",
+    "Fever with acidity",
+    "Headache with acidity",
+    "Muscle aches with acidity",
+    "Fatigue with acidity",
+    "Loss of appetite with acidity",
+    "Dehydration with acidity"
+  ],
+  "medications": [
+    "Antidiarrheal medications (e.g., loperamide) to reduce diarrhea",
+    "Antiemetic medications (e.g., ondansetron) to relieve nausea and vomiting",
+    "Antipyretic medications (e.g., acetaminophen) to reduce fever",
+    "Oral rehydration solutions (e.g., Pedialyte) to replenish electrolytes and fluids",
+    "Probiotics (e.g., Lactobacillus) to restore gut flora balance",
+    "Pain relievers (e.g., ibuprofen) for muscle aches and abdominal cramps",
+    "Antibiotics (in certain cases of bacterial gastroenteritis)",
+    "Intravenous fluids and electrolytes (for severe dehydration)",
+    "Antispasmodic medications (e.g., dicyclomine) for abdominal cramps",
+    "Digestive enzymes (e.g., pancrelipase) for improving digestion"
+  ],
+  "treatments":[
+    "Resting and allowing the gastrointestinal tract to heal",
+    "Staying hydrated by drinking clear fluids",
+    "Gradually reintroducing bland foods once symptoms improve",
+    "Avoiding spicy, greasy, or fatty foods",
+    "Using oral rehydration solutions for dehydration",
+    "Maintaining good hand hygiene to prevent the spread of infection",
+    "Avoiding alcohol and caffeine until recovery",
+    "Avoiding dairy products if lactose intolerant",
+    "Seeking medical attention if symptoms persist or worsen",
+    "Following up with healthcare provider for monitoring and treatment adjustments"
+  ]
+}
+,
+{
+  "tag": "gastritis",
+  "patterns": [
+    "Abdominal pain or discomfort dues to acidity",
+   
+    "Indigestion with acidity",
+    "Loss of appetite with acidity",
+    "Bloating with acidity",
+    "Belching with acidity",
+    "Heartburn with acidity",
+    "Black, tarry stools (indicating bleeding) with acidity",
+    "Hiccups with acidity"
+  ],
+  "medications": [
+    "Antacids (e.g., calcium carbonate, magnesium hydroxide) to neutralize stomach acid",
+    "Proton pump inhibitors (PPIs) (e.g., omeprazole, esomeprazole) to reduce acid production",
+    "Histamine-2 (H2) receptor blockers (e.g., ranitidine, famotidine) to decrease acid secretion",
+    "Antibiotics (if gastritis is caused by Helicobacter pylori infection)",
+    "Prostaglandin analogs (e.g., misoprostol) to protect the stomach lining",
+    "Mucosal protective agents (e.g., sucralfate) to coat and soothe the stomach lining",
+    "Antiemetic medications (e.g., ondansetron) to relieve nausea and vomiting",
+    "Prokinetic agents (e.g., metoclopramide) to improve gastric motility",
+    "Analgesic medications (e.g., acetaminophen) for pain relief",
+    "Antispasmodic medications (e.g., dicyclomine) for abdominal cramps"
+  ],
+  "treatments":[
+    "Avoiding irritating foods and beverages (e.g., spicy, acidic, or fried foods)",
+    "Eating smaller, more frequent meals",
+    "Avoiding alcohol and caffeine",
+    "Quitting smoking",
+    "Managing stress through relaxation techniques",
+    "Elevating the head of the bed while sleeping",
+    "Avoiding nonsteroidal anti-inflammatory drugs (NSAIDs)",
+    "Getting tested and treated for H. pylori infection if present",
+    "Following up with healthcare provider for monitoring and treatment adjustments",
+    "Seeking medical attention if symptoms persist or worsen"
+  ]
+}
+,
+{
+  "tag": "gastroenteritis",
+  "patterns": [
+    "Nausea , Vomiting, Diarrhea, Abdominal cramps, Fever, Muscle aches, Dehydration",
+    "Vomiting",
+    "Diarrhea",
+    "Abdominal cramps"
+   
+  ],
+  "medications": [
+    "Antibiotics (if bacterial gastroenteritis is diagnosed)",
+    "Antiemetics (e.g., ondansetron) to control nausea and vomiting",
+    "Antidiarrheal medications (e.g., loperamide) to reduce diarrhea",
+    "Probiotics to restore gut flora balance",
+    "Pain relievers (e.g., acetaminophen, ibuprofen) for pain and fever",
+    "Intravenous fluids and electrolytes for severe dehydration",
+    "Antiviral medications (if viral gastroenteritis is diagnosed)",
+    "Antipyretics (e.g., acetaminophen) for fever reduction",
+    "Digestive enzymes (e.g., pancrelipase) to aid digestion",
+    "Antispasmodic medications (e.g., dicyclomine) for abdominal cramps"
+  ],
+  "treatments":[
+    "Resting and staying hydrated with clear fluids",
+    "Gradually reintroducing solid foods after symptoms improve",
+    "Avoiding caffeine, alcohol, and spicy foods",
+    "Eating bland foods like rice, bananas, and toast",
+    "Using oral rehydration solutions to replace lost fluids and electrolytes",
+    "Avoiding dairy products until diarrhea resolves",
+    "Washing hands frequently to prevent the spread of infection",
+    "Seeking medical attention if symptoms worsen or persist",
+    "Taking medications as prescribed by a healthcare provider",
+    "Following up with a healthcare provider for monitoring and guidance"
+  ]
+}
+,
+{
+  "tag": "gastritis",
+  "patterns": [
+   
+    "Loss of appetite , Bloating, Indigestion, Black, tarry stools (indicating upper GI bleeding)",
+   
+    "Black, tarry stools (indicating upper GI bleeding)"
+   
+  ],
+  "medications": [
+    "Proton pump inhibitors (e.g., omeprazole, lansoprazole) to reduce stomach acid",
+    "Antacids (e.g., calcium carbonate, magnesium hydroxide) to neutralize stomach acid",
+    "Histamine H2-receptor antagonists (e.g., ranitidine, famotidine) to reduce acid production",
+    "Antibiotics (if H. pylori infection is present)",
+    "Prostaglandin analogs (e.g., misoprostol) to protect the stomach lining",
+    "Mucosal protective agents (e.g., sucralfate) to form a protective barrier in the stomach",
+    "Antiemetic medications (e.g., ondansetron) to control nausea and vomiting",
+    "Antispasmodic medications (e.g., dicyclomine) for abdominal cramps",
+    "Prokinetic agents (e.g., metoclopramide) to improve stomach emptying",
+    "Analgesics (e.g., acetaminophen) for pain relief"
+  ],
+  "treatments":[
+    "Avoiding irritants such as spicy foods, alcohol, and caffeine",
+    "Eating smaller, more frequent meals",
+    "Avoiding lying down or going to bed immediately after eating",
+    "Quitting smoking",
+    "Managing stress through relaxation techniques",
+    "Using over-the-counter antacids or acid reducers as needed",
+    "Avoiding NSAIDs (nonsteroidal anti-inflammatory drugs) if possible",
+    "Seeking medical attention if symptoms worsen or persist",
+    "Following a bland diet until symptoms improve",
+    "Consulting a healthcare provider for a personalized treatment plan"
+  ]
+}
+,
+
+{
+  "tag": "peptic ulcer disease",
+  "patterns": [
+    "Burning stomach pain, Heartburn, Nausea, Feeling full soon after eating"
+   
+  ],
+  "medications": [
+    "Proton pump inhibitors (e.g., omeprazole, esomeprazole) to reduce stomach acid production",
+    "Histamine H2-receptor antagonists (e.g., ranitidine, famotidine) to reduce acid production",
+    "Antacids (e.g., calcium carbonate, magnesium hydroxide) for immediate relief of symptoms",
+    "Antibiotics (if Helicobacter pylori infection is present)",
+    "Mucosal protective agents (e.g., sucralfate) to protect the stomach lining",
+    "Prostaglandin analogs (e.g., misoprostol) to protect the stomach lining and reduce acid secretion",
+    "Cytoprotective agents (e.g., bismuth subsalicylate) to protect the stomach lining",
+    "Prokinetic agents (e.g., metoclopramide) to improve gastric motility",
+    "Pain relievers (e.g., acetaminophen) for discomfort",
+    "Antiemetics (e.g., ondansetron) for nausea and vomiting"
+  ],
+  "treatments":[
+    "Avoiding irritants such as spicy foods, alcohol, and NSAIDs",
+    "Quitting smoking",
+    "Eating smaller, more frequent meals",
+    "Avoiding lying down or going to bed immediately after eating",
+    "Reducing stress through relaxation techniques",
+    "Staying hydrated by drinking water",
+    "Eating a diet rich in fiber and low in fat",
+    "Seeking medical attention if symptoms persist or worsen",
+    "Following the prescribed treatment regimen",
+    "Monitoring for potential complications (e.g., bleeding, perforation)"
+  ]
+}
+,
+{
+  "tag": "diabetes mellitus",
+  "patterns": [
+    "Frequent urination along with Blurred vision",
+    "Excessive thirst",
+    "Unexplained weight loss",
+   
+    "Blurred vision",
+    "Slow healing of wounds",
+    "Tingling or numbness in hands or feet",
+    "Recurrent infections",
+    "Increased hunger",
+    "Irritability"
+  ],
+  "medications": [
+    "Insulin therapy (multiple types including rapid-acting, short-acting, intermediate-acting, long-acting)",
+    "Oral antidiabetic medications (e.g., metformin, sulfonylureas, meglitinides, DPP-4 inhibitors)",
+    "GLP-1 receptor agonists (e.g., liraglutide, exenatide) for type 2 diabetes",
+    "SGLT2 inhibitors (e.g., canagliflozin, empagliflozin) for type 2 diabetes",
+    "Thiazolidinediones (e.g., pioglitazone, rosiglitazone) for type 2 diabetes",
+    "Alpha-glucosidase inhibitors (e.g., acarbose, miglitol) for type 2 diabetes",
+    "Basal insulin (e.g., insulin glargine, insulin detemir) for long-term blood sugar control",
+    "Prandial insulin (e.g., insulin lispro, insulin aspart) for mealtime blood sugar control",
+    "Pre-mixed insulin (e.g., insulin 70/30, insulin 75/25) for both long-term and mealtime blood sugar control",
+    "Combination therapies (e.g., metformin combined with sulfonylureas or DPP-4 inhibitors)"
+  ],
+  "treatments":[
+    "Monitoring blood sugar levels regularly",
+    "Following a healthy diet low in sugar and carbohydrates",
+    "Regular physical activity and exercise",
+    "Maintaining a healthy weight",
+    "Taking medications as prescribed by healthcare provider",
+    "Monitoring for and managing complications (e.g., neuropathy, retinopathy, nephropathy)",
+    "Routine check-ups with healthcare provider",
+    "Stress management techniques",
+    "Foot care to prevent complications",
+    "Education and support for self-management"
+  ]
+}
+,
+{
+  "tag": "hyperthyroidism",
+  "patterns": [
+    "Unexplained weight loss",
+    "Increased appetite with Nervousness or anxiety",
+    "Rapid heartbeat (tachycardia)",
+    "Irregular heartbeat (arrhythmia)",
+    "Palpitations",
+    "Heat intolerance",
+    "Excessive sweating",
+    "Tremor with Fatigue"
+   
+   
+  ],
+  "medications": [
+    "Antithyroid medications (e.g., methimazole, propylthiouracil) to reduce thyroid hormone production",
+    "Beta-blockers (e.g., propranolol, atenolol) to manage symptoms such as rapid heartbeat and tremor",
+    "Radioactive iodine therapy (radioiodine ablation) to destroy thyroid cells and reduce hormone production",
+    "Thyroidectomy (surgical removal of the thyroid gland) for severe cases or if other treatments are not effective",
+    "Radioiodine capsules to shrink the thyroid gland and reduce hormone production",
+    "Symptom-specific medications (e.g., antianxiety medications for anxiety, sleep aids for insomnia)",
+    "Supplements (e.g., calcium, vitamin D) to manage bone health if hyperthyroidism affects bone density",
+    "Eye drops or ointments for eye symptoms associated with Graves' disease (thyroid eye disease)",
+    "Antiemetics (anti-nausea medications) if gastrointestinal symptoms are present",
+    "Calcium channel blockers (e.g., diltiazem, verapamil) for heart rate control in cases of arrhythmia"
+  ],
+  "treatments":[
+    "Regular monitoring of thyroid function and hormone levels",
+    "Following a balanced diet rich in nutrients",
+    "Limiting caffeine intake",
+    "Avoiding foods high in iodine (e.g., seaweed, iodized salt)",
+    "Managing stress through relaxation techniques",
+    "Getting regular exercise",
+    "Taking medications as prescribed by healthcare provider",
+    "Maintaining a healthy weight",
+    "Avoiding smoking and alcohol consumption",
+    "Educating oneself about hyperthyroidism and its management"
+  ]
+}
+,
+{
+  "tag": "hypothyroidism",
+  "patterns": [
+   
+    "Weight gain with Depression",
+    "Cold intolerance",
+    "Constipation along Dry skin",
+   
+    "Hair loss",
+    "Muscle weakness",
+    "Joint pain with Fatigue and depression",
+   
+    "Memory problems"
+  ],
+  "medications": [
+    "Synthetic thyroid hormone replacement (e.g., levothyroxine, liothyronine) to replace deficient thyroid hormones",
+    "Desiccated thyroid extract (e.g., Armour Thyroid) containing both T3 and T4 hormones",
+    "Calcium and vitamin D supplements for bone health if hypothyroidism affects bone density",
+    "Iron supplements if hypothyroidism is associated with iron deficiency anemia",
+    "Cholesterol-lowering medications if hypothyroidism leads to high cholesterol levels",
+    "Symptom-specific medications (e.g., antidepressants for depression, laxatives for constipation)",
+    "Antihypertensive medications if hypothyroidism leads to high blood pressure",
+    "Medications to manage symptoms such as joint pain, muscle weakness, and fatigue",
+    "Thyroid hormone replacement therapy adjusted based on regular blood tests and symptoms"
+  ],
+  "treatments":[
+    "Regular monitoring of thyroid function and hormone levels",
+    "Taking thyroid hormone replacement medication as prescribed by healthcare provider",
+    "Following a balanced diet rich in nutrients",
+    "Getting regular exercise",
+    "Managing stress through relaxation techniques",
+    "Avoiding smoking and alcohol consumption",
+    "Practicing good sleep hygiene",
+    "Maintaining a healthy weight",
+    "Educating oneself about hypothyroidism and its management",
+    "Seeking medical attention if symptoms worsen or new symptoms develop"
+  ]
+}
+,
+{
+  "tag": "gout",
+  "patterns": [
+    "Sudden and severe joint pain",
+    "Swelling in affected joints with Fever",
+    "Warmth and redness in affected joints",
+    "Limited range of motion",
+    "Tophi (lumps of uric acid crystals) under the skin",
+    "gout",
+    "Chills",
+    "Tender joints",
+    "Joint stiffness"
+  ],
+  "medications": [
+    "Nonsteroidal anti-inflammatory drugs (NSAIDs) to reduce inflammation and pain (e.g., indomethacin, naproxen)",
+    "Colchicine to reduce inflammation and pain (used for acute attacks)",
+    "Corticosteroids (e.g., prednisone) to reduce inflammation and pain (used for acute attacks or when NSAIDs are contraindicated)",
+    "Xanthine oxidase inhibitors (e.g., allopurinol, febuxostat) to lower uric acid levels and prevent gout attacks",
+    "Uricosuric agents (e.g., probenecid, lesinurad) to increase uric acid excretion by the kidneys",
+    "Pegloticase to break down uric acid and reduce its levels in the blood (used for severe, refractory gout)",
+    "Interleukin-1 inhibitors (e.g., canakinumab) to reduce inflammation and prevent gout attacks",
+    "Medications to manage comorbid conditions such as hypertension and hyperlipidemia",
+    "Pain relievers (e.g., acetaminophen) for pain relief during acute attacks",
+    "Prophylactic colchicine or NSAIDs during initiation of urate-lowering therapy to prevent gout flares"
+  ],
+  "treatments":[
+    "Avoiding or limiting foods high in purines (e.g., red meat, seafood, alcohol)",
+    "Maintaining a healthy weight",
+    "Staying hydrated by drinking plenty of water",
+    "Reducing alcohol consumption, especially beer and spirits",
+    "Managing comorbid conditions such as hypertension and hyperlipidemia",
+    "Regularly monitoring uric acid levels in the blood",
+    "Elevating and resting the affected joint during acute attacks",
+    "Seeking medical attention promptly for treatment of acute attacks",
+    "Following a balanced diet and avoiding crash diets",
+    "Educating oneself about gout triggers and management"
+  ]
+}
+,
+{
+  "tag": "kidney stones",
+  "patterns": [
+    "Severe pain in the back, side, or lower abdomen",
+    "Pain that radiates to the groin or genital area",
+    "Painful urination",
+    "Blood in the urine",
+    "Frequent urination",
+    "kidney stones",
+    "Urgency to urinate",
+    "Nausea and vomiting",
+    "Cloudy or foul-smelling urine",
+    "Difficulty passing urine"
+  ],
+  "medications": [
+    "Pain relievers (e.g., nonsteroidal anti-inflammatory drugs like ibuprofen, acetaminophen) for pain management",
+    "Alpha blockers (e.g., tamsulosin) to relax muscles in the ureter and facilitate stone passage",
+    "Calcium channel blockers (e.g., nifedipine) to relax smooth muscle and reduce ureteral spasm",
+    "Antiemetics (e.g., ondansetron) to relieve nausea and vomiting",
+    "Antibiotics (if infection is present)",
+    "Medications to alkalinize urine (e.g., potassium citrate) to help dissolve certain types of stones",
+    "Medications to reduce uric acid levels (e.g., allopurinol) for uric acid stones",
+    "Thiazide diuretics (e.g., hydrochlorothiazide) to decrease urinary calcium excretion and prevent calcium stones",
+    "Phosphate binders (e.g., sevelamer) to prevent absorption of calcium and phosphate in the intestine and reduce stone formation",
+    "Medications to regulate parathyroid hormone levels (e.g., cinacalcet) for hyperparathyroidism-related stones"
+  ],
+  "treatments":[
+    "Drinking plenty of water to help flush out the stone",
+    "Pain management with hot packs or heating pads",
+    "Taking prescribed medications as directed",
+    "Using sound waves (extracorporeal shock wave lithotripsy) to break up larger stones into smaller pieces",
+    "Inserting a scope into the urethra and up into the urinary tract to remove or break up the stone (ureteroscopy)",
+    "Surgical removal of large or problematic stones (percutaneous nephrolithotomy)",
+    "Avoiding foods high in oxalates (e.g., spinach, nuts, chocolate) if oxalate stones are a concern",
+    "Limiting sodium intake to prevent calcium buildup in the urine",
+    "Avoiding dehydration by drinking enough fluids throughout the day",
+    "Regular follow-up with a healthcare provider for monitoring and prevention strategies"
+  ]
+}
+,
+{
+  "tag": "urinary incontinence",
+  "patterns": [
+    "Leaking urine when coughing, sneezing, or laughing (stress incontinence)",
+    "Sudden and intense urge to urinate followed by involuntary leakage of urine (urge incontinence)",
+    "Frequent urination (overactive bladder)",
+    "Difficulty starting urination",
+    "Weak urine stream",
+    "Incomplete emptying of the bladder",
+    "Bedwetting (nocturnal enuresis)",
+    "Overflow incontinence (inability to fully empty the bladder)",
+    "Urinary tract infections",
+    "Skin irritation or rash due to constant moisture"
+  ],
+  "medications": [
+    "Anticholinergic medications (e.g., oxybutynin, tolterodine) to relax bladder muscles and reduce urgency and frequency",
+    "Beta-3 adrenergic agonists (e.g., mirabegron) to relax bladder muscles and increase bladder capacity",
+    "Topical estrogen therapy (e.g., vaginal estrogen cream) to improve tissue tone and elasticity in postmenopausal women",
+    "Alpha-blockers (e.g., tamsulosin) to relax muscles in the prostate and bladder neck in men with overflow incontinence",
+    "Antidepressants (e.g., imipramine) to relax bladder muscles and increase bladder capacity",
+    "Desmopressin (DDAVP) for nocturnal enuresis in children",
+    "Botox injections into the bladder muscle to relax it and increase storage capacity",
+    "Intravesical botulinum toxin injections to relax bladder muscles and reduce urgency and frequency",
+    "Absorbent pads or protective garments to manage leakage and protect clothing",
+    "Medications to treat underlying conditions contributing to urinary incontinence (e.g., antibiotics for urinary tract infections)"
+  ],
+  "treatments":[
+    "Kegel exercises to strengthen pelvic floor muscles",
+    "Scheduled voiding to empty the bladder regularly and prevent accidents",
+    "Fluid management to avoid overhydration or dehydration",
+    "Bladder training to gradually increase the time between urinations",
+    "Biofeedback to help learn how to control pelvic floor muscles",
+    "Weight loss and dietary modifications to reduce symptoms in overweight individuals",
+    "Avoiding bladder irritants such as caffeine, alcohol, and spicy foods",
+    "Timed voiding alarms or reminder apps to prompt regular trips to the bathroom",
+    "Toileting assistance devices or aids to help with mobility and accessibility",
+    "Surgical interventions for severe cases or when conservative treatments fail"
+  ]
+}
+,
+{
+  "tag": "anemia",
+  "patterns": [
+   
+   
+    "Weakness along with Pale or yellowish skin",
+    "Shortness of breath",
+    "Dizziness or lightheadedness",
+    "Cold hands and feet",
+    "Irregular heartbeats",
+    "anemia",
+    "Headache with Chest pain and Difficulty concentrating"
+   
+  ],
+  "medications": [
+    "Iron supplements (e.g., ferrous sulfate, ferrous gluconate) to replenish iron stores",
+    "Vitamin B12 supplements (e.g., cyanocobalamin, methylcobalamin) for vitamin B12 deficiency anemia",
+    "Folic acid supplements (e.g., folate) for folate deficiency anemia",
+    "Erythropoiesis-stimulating agents (e.g., epoetin alfa, darbepoetin alfa) to stimulate red blood cell production in certain types of anemia",
+    "Intravenous iron therapy for severe iron deficiency anemia or when oral supplements are not effective or tolerated",
+    "Blood transfusions for severe anemia or when rapid correction is needed",
+    "Medications to treat underlying causes of anemia (e.g., antibiotics for infections, corticosteroids for autoimmune diseases)",
+    "Chelating agents (e.g., deferoxamine, deferasirox) to remove excess iron from the body in cases of iron overload",
+    "Medications to stimulate red blood cell production in bone marrow (e.g., eltrombopag for aplastic anemia)"
+  ],
+  "treatments":[
+    "Identifying and treating underlying causes of anemia",
+    "Eating a diet rich in iron, vitamin B12, and folate (e.g., red meat, poultry, fish, leafy greens, legumes)",
+    "Taking iron supplements or other prescribed medications as directed by healthcare provider",
+    "Avoiding substances that can interfere with iron absorption (e.g., caffeine, calcium supplements)",
+    "Getting regular exercise to improve circulation and overall health",
+    "Managing chronic conditions that may contribute to anemia (e.g., chronic kidney disease, inflammatory bowel disease)",
+    "Avoiding excessive alcohol consumption",
+    "Ensuring adequate hydration",
+    "Taking steps to prevent infections and chronic illnesses",
+    "Regular monitoring of blood counts and iron levels"
+  ]
+}
+,
+{
+  "tag": "vertigo",
+  "patterns": [
+    "Sensation of spinning or whirling  and Nausea or vomiting along with sweating",
+    "Feeling off-balance or unsteady",
+   
+    "Abnormal eye movements (nystagmus)",
+   
+    "Ringing in the ears (tinnitus)",
+    "Hearing loss with Nausea or vomiting along with sweating",
+    "Jerky eye movements (ocular dysmetria)",
+    "Difficulty walking or standing"
+  ],
+  "medications": [
+    "Antihistamines (e.g., meclizine, dimenhydrinate) to reduce symptoms of nausea and vomiting",
+    "Anticholinergics (e.g., scopolamine) to alleviate symptoms of motion sickness",
+    "Benzodiazepines (e.g., diazepam, lorazepam) to reduce anxiety and promote relaxation",
+    "Vestibular suppressants (e.g., betahistine) to reduce vertigo symptoms by affecting vestibular function",
+    "Anti-nausea medications (e.g., ondansetron) to control nausea and vomiting associated with vertigo",
+    "Antiemetics (e.g., promethazine) to relieve nausea and vomiting",
+    "Corticosteroids (e.g., prednisone) to reduce inflammation and alleviate symptoms of certain types of vertigo",
+    "Diuretics (e.g., hydrochlorothiazide) to reduce fluid retention and relieve symptoms of Meniere's disease",
+    "Calcium channel blockers (e.g., verapamil) to improve blood flow and reduce symptoms of vertigo in vestibular migraine",
+    "Selective serotonin reuptake inhibitors (SSRIs) or serotonin-norepinephrine reuptake inhibitors (SNRIs) for vestibular migraine and anxiety-related vertigo"
+  ],
+  "treatments":[
+    "Epley maneuver or canalith repositioning procedures to treat benign paroxysmal positional vertigo (BPPV)",
+    "Vestibular rehabilitation therapy to improve balance and reduce symptoms of vertigo",
+    "Avoiding sudden head movements or changes in position",
+    "Staying hydrated and maintaining a balanced diet",
+    "Limiting caffeine, alcohol, and salt intake",
+    "Getting enough rest and managing stress",
+    "Avoiding triggers such as bright lights, strong odors, and crowded spaces",
+    "Using assistive devices such as canes or walkers if necessary",
+    "Wearing supportive footwear to prevent falls",
+    "Seeking medical attention for underlying conditions causing vertigo"
+  ]
+}
+,
+{
+  "tag": "menstrual disorders",
+  "patterns": [
+    "Irregular menstrual cycles",
+    "Heavy menstrual bleeding (menorrhagia)",
+    "Light menstrual periods (hypomenorrhea)",
+    "Absent menstrual periods (amenorrhea)",
+    "Painful menstrual periods (dysmenorrhea)",
+    "Spotting or bleeding between periods",
+    "Premenstrual syndrome (PMS) symptoms",
+    "Premenstrual dysphoric disorder (PMDD)",
+    "Bloating",
+    "Breast tenderness"
+  ],
+  "medications": [
+    "Nonsteroidal anti-inflammatory drugs (NSAIDs) to relieve menstrual pain and reduce bleeding",
+    "Oral contraceptives (birth control pills) to regulate menstrual cycles and reduce heavy bleeding",
+    "Hormone therapy (e.g., estrogen, progestin) to regulate menstrual cycles and reduce symptoms of menopause",
+    "Progesterone therapy to regulate menstrual cycles and reduce heavy bleeding",
+    "Antifibrinolytic medications (e.g., tranexamic acid) to reduce heavy menstrual bleeding",
+    "Selective serotonin reuptake inhibitors (SSRIs) or serotonin-norepinephrine reuptake inhibitors (SNRIs) to relieve symptoms of PMDD",
+    "Gonadotropin-releasing hormone (GnRH) agonists or antagonists to reduce menstrual bleeding and regulate cycles",
+    "Danazol to suppress ovulation and reduce menstrual bleeding",
+    "Diuretics to reduce bloating and fluid retention",
+    "Antidepressants for management of mood symptoms associated with menstrual disorders"
+  ],
+  "treatments":[
+    "Lifestyle modifications such as stress management, regular exercise, and healthy diet",
+    "Using menstrual products such as pads, tampons, or menstrual cups to manage bleeding",
+    "Endometrial ablation or uterine artery embolization to treat heavy menstrual bleeding",
+    "Hysteroscopy with dilation and curettage (D&C) to diagnose and treat underlying causes of abnormal bleeding",
+    "Hormone replacement therapy (HRT) for menopausal women experiencing irregular or heavy bleeding",
+    "Counseling or therapy for psychological symptoms associated with menstrual disorders",
+    "Regular monitoring of menstrual cycles and symptoms",
+    "Maintaining a menstrual diary to track patterns and symptoms",
+    "Surgical interventions such as hysterectomy for severe or refractory cases",
+    "Seeking medical attention for persistent or severe menstrual symptoms"
+  ]
+}
+,
+{
+  "tag": "erectile dysfunction",
+  "patterns": [
+    "Difficulty achieving or maintaining an erection",
+    "Reduced sexual desire",
+    "Premature ejaculation",
+    "Delayed ejaculation",
+    "Anxiety or stress related to sexual performance",
+    "Trouble getting or keeping an erection during masturbation but not during sexual intercourse",
+    "Relationship problems",
+    "Low self-esteem",
+    "erectile dysfunction",
+    "Fatigue or lack of energy",
+    "Depression with Low self-esteem and erectile problems",
+    "erectile dysfunction"
+  ],
+  "medications": [
+    "Phosphodiesterase type 5 (PDE5) inhibitors (e.g., sildenafil, tadalafil, vardenafil) to increase blood flow to the penis and improve erections",
+    "Testosterone replacement therapy (TRT) for men with low testosterone levels",
+    "Alprostadil injections or intraurethral suppositories to improve blood flow to the penis",
+    "Vacuum erection devices (penis pumps) to create an erection by drawing blood into the penis",
+    "Testosterone gel or patches for men with low testosterone levels",
+    "Low-dose antidepressants (e.g., sertraline, paroxetine) for men with erectile dysfunction and premature ejaculation",
+    "Medications to treat underlying medical conditions contributing to erectile dysfunction (e.g., antihypertensives, antihistamines)",
+    "Hormone therapy for men with hormonal imbalances contributing to erectile dysfunction",
+    "Penile implants or prostheses for men who do not respond to other treatments",
+    "Psychological counseling or therapy to address underlying emotional or psychological factors"
+  ],
+  "treatments":[
+    "Making lifestyle changes such as quitting smoking, reducing alcohol consumption, and managing stress",
+    "Regular exercise to improve cardiovascular health and circulation",
+    "Maintaining a healthy weight",
+    "Eating a balanced diet rich in fruits, vegetables, whole grains, and lean proteins",
+    "Communicating openly with sexual partners about concerns and preferences",
+    "Exploring alternative sexual activities and intimacy techniques",
+    "Using relaxation techniques to reduce anxiety and stress related to sexual performance",
+    "Attending sex therapy or couples counseling sessions",
+    "Educating oneself about erectile dysfunction and treatment options",
+    "Seeking medical evaluation and treatment for underlying health issues"
+  ]
+}
+
+
+
+
+     
+    ]
+  }
